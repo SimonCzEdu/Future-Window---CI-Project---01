@@ -45,3 +45,14 @@ footer {
 }
 
 nav {}
+
+#bgExplosionVid {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    left: -818px;
+    top: -228px;
+}
