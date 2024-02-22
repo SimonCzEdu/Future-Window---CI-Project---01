@@ -31,27 +31,41 @@ header {
     border-radius: 2px;
 }
 
-/* Main sections main styling */
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5.1vh;
+    color: white;
+}
+
+/* Nav bar styling */
+nav {
+    display: none;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;    
+}
+
+/* Main sectionsstyling */
 main {
     background-color: rgba(255, 255, 255, 0);
     /* Let Main element take all of the space */
     flex: 1 0 auto;
 }
 
-/* Footer main styling */
+/* Footer styling */
 footer {
     margin: 5px 5px 0 5px;
     background-color: rgba(9, 172, 75, 0.3);
     position: fixed;
     bottom: 0;
-}
-
-nav {
-    display: none;
-}
-
-#nav-toggle:checked~nav {
-    display: block;    
 }
 
 /* Background video sizing and position */
