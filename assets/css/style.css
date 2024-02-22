@@ -98,10 +98,16 @@ main {
 
 /* Footer styling */
 footer {
-    margin: 5px 5px 0 5px;
-    background-color: rgba(9, 172, 75, 0.3);
+    display: flex;
+    width: 98%;
+    margin-bottom: 0.5vh;
+    background-color: rgba(17, 69, 128, 0.3);
     position: fixed;
     bottom: 0;
+    border-radius: 7px;
+    letter-spacing: 0.09rem;
+    align-items: center;
+    font-size: 4.5vh;
 }
 
 /* Background video sizing and position */
