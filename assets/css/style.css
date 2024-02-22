@@ -26,12 +26,13 @@ body {
 header {
     display: flex;
     width: 90%;
-    margin: 3vh 5px 0 5px;
+    margin-top: 3vh;
     background-color: rgba(17, 69, 128, 0.3);
     position: absolute;
     top: 0;
-    border-radius: 2px;
+    border-radius: 7px;
     letter-spacing: 0.09rem;
+    align-items: center;
 }
 
 header a {
@@ -39,9 +40,9 @@ header a {
 }
 
 h1 {
+    flex-grow: 9;
     font-size: 4.2vh;
     color: rgba(56, 107, 147, 0.404);
-    padding-left: 0.3rem;
 }
 
 /* Nav bar styling */
