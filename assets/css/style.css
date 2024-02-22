@@ -22,13 +22,16 @@ body {
     align-items: center;
 }
 
-/* Header main styling */
+/* Header styling */
 header {
-    margin: 5px 5px 0 5px;
+    display: flex;
+    width: 90%;
+    margin: 3vh 5px 0 5px;
     background-color: rgba(17, 69, 128, 0.3);
-    position: fixed;
+    position: absolute;
     top: 0;
     border-radius: 2px;
+    letter-spacing: 0.09rem;
 }
 
 header a {
@@ -36,24 +39,43 @@ header a {
 }
 
 h1 {
-    font-size: 5.1vh;
-    color: white;
+    font-size: 4.2vh;
+    color: rgba(56, 107, 147, 0.404);
+    padding-left: 0.3rem;
 }
 
 /* Nav bar styling */
 nav {
+    position: fixed;
     display: none;
+}
+
+nav li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.navLink {
+    color: rgba(56, 107, 147, 0.404);
+    margin: 1rem 0;
+    background-color: rgba(17, 69, 128, 0.3);
 }
 
 #menu {
     list-style-type: none;
 }
 
-#nav-toggle:checked~nav {
-    display: block;    
+#nav-toggle {
+    position: fixed;
+    top: 2.4rem;
+    right: 1rem;
 }
 
-/* Main sectionsstyling */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* Main sections styling */
 main {
     background-color: rgba(255, 255, 255, 0);
     /* Let Main element take all of the space */
