@@ -23,11 +23,37 @@ body {
 
 /* Header main styling */
 header {
-    margin: 5px 5px 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: rgba(17, 69, 128, 0.3);
     position: fixed;
-    top: 0;
     border-radius: 2px;
+    align-items: baseline;
+    margin:auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #cfe4e325;
+}
+
+h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 3px;
+    top: 1rem;
+}
+
+#menu > li {
+    background-color: rgba(156, 15, 32, 0.708);
+    border: 2px;
+    border-color: aliceblue;
 }
 
 /* Main sections main styling */
@@ -45,8 +71,21 @@ footer {
     bottom: 0;
 }
 
-nav {}
+/* Navigation bar */
+nav {
+    top: 3rem;
+    right: 1rem;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    display:none;
+}
 
+#buttonHide:checked~nav {
+    display:block;
+}
+
+/* Background video positioning */
 #bgVid {
     display: flex;
     justify-content: center;
@@ -61,3 +100,4 @@ video {
     height: 100%;
     object-fit: cover;
 }
+
