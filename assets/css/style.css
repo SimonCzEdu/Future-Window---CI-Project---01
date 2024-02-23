@@ -26,8 +26,8 @@ body {
 header {
     display: flex;
     width: 96vw;    
-    margin-top: 3vh;
-    background-color: rgba(57, 107, 164, 0.3);
+    margin-top: 3vh; 
+    background-color: rgba(20, 20, 12, 0.509);
     position: absolute;
     top: 0;
     border-radius: 7px;
@@ -36,7 +36,7 @@ header {
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.854);
     border-width: 2px;
-    box-shadow: -2px 3px rgba(175, 174, 174, 0.276);
+    box-shadow: 1px -3px rgba(175, 174, 174, 0.276);
 }
 
 header a {
@@ -47,7 +47,7 @@ header a {
 h1 {
     flex-grow: 9;
     font-size: 4.2vh;
-    color: rgba(56, 107, 147, 0.404);   
+    color: rgba(109,255,235, 0.65);
 }
 
 /* Nav bar styling */
@@ -104,8 +104,8 @@ main {
 footer {
     display: flex;
     width: 98vw;
-    margin-bottom: 0.3vh;
-    background-color: rgba(17, 69, 128, 0.3);
+    margin-bottom: 0.3vh; 
+    background-color: rgba(47, 13, 68, 0.726);
     position: fixed;
     bottom: 0;
     border-radius: 7px;
@@ -113,6 +113,11 @@ footer {
     align-items: center;
     font-size: 4.5vh;
     padding: 3vh;
+    border-style: solid;
+    background-color: rgba(20, 20, 12, 0.509);
+    border-width: 2px;
+    box-shadow: 1px -4px rgba(236, 234, 234, 0.276);
+    color: rgba(144, 249, 235, 0.65);
 }
 
 /* Background video sizing and position */
