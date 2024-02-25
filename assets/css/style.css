@@ -27,11 +27,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 96vw;
-    margin-top: 3vh;
+    width: 99vw;
     background-color: rgba(20, 20, 12, 0.509);
     position: absolute;
-    top: 0;
+    top: 1vh;
     border-radius: 7px;
     letter-spacing: 0.09rem;
     border-style: solid;
@@ -61,30 +60,34 @@ nav {
 
 nav li {
     align-items: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 
 .navLink {
-    color: rgba(56, 107, 147, 0.404);
+    color: rgba(109, 255, 235, 0.65);
     margin: 1rem 0;
-    background-color: rgba(17, 69, 128, 0.3);
+    background-color: rgba(20, 20, 12, 0.509);
     border-radius: 3px;
     padding: 2px;
     margin: 2px;
     font-size: 2.5vh;
+    letter-spacing: 0.09rem;
+    border-style: solid;
+    border-color: rgba(78, 154, 174, 0.854);
+    border-width: 0.1px;
 }
 
 #menu {
-    background-color: rgba(255, 0, 0, 0.338);
+    /* background-color: rgba(255, 0, 0, 0.338); */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     list-style-type: none;
     border-radius: 5px;
     position: fixed;
-    top: 3rem;
-    right: 0.3rem;
+    top: 11.5vh;
+    right: 1vh;
 }
 
 #nav-toggle {
@@ -96,12 +99,12 @@ nav li {
 
 .nav-toggle-label {
     position: fixed;
-    top: 3.7vh;
-    right: 1.5vh;
+    top: 7vh;
+    right: 1vh;
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
-    background-color: rgba(17, 69, 128, 0.3);
+    background-color: rgba(20, 20, 12, 0.509);
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.854);
     border-width: 0.1px;
@@ -129,10 +132,16 @@ main {
     flex: 1 0 auto;
 }
 
+.test {
+    background-color: rgba(213, 218, 222, 0.15);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 /* Footer styling */
 footer {
     display: flex;
-    width: 98vw;
+    width: 99vw;
     margin-bottom: 0.3vh;
     position: fixed;
     bottom: 0;
@@ -145,6 +154,10 @@ footer {
     background-color: rgba(20, 20, 12, 0.509);
     border-width: 0.1px;
     color: rgba(144, 249, 235, 0.65);
+}
+
+footer:focus {
+    background-color: rgba(20, 20, 12, 1);
 }
 
 /* Background video sizing and position */
