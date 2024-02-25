@@ -99,11 +99,11 @@ nav li {
 
 .nav-toggle-label {
     position: fixed;
-    top: 7vh;
+    top: 1.6vh;
     right: 1vh;
-    width: 4vh;
+    width: 2vh;
     height: 4vh;
-    border-radius: 50%;
+    border-radius: 1vh;
     background-color: rgba(20, 20, 12, 0.509);
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.854);
@@ -113,16 +113,16 @@ nav li {
     justify-content: center;
 }
 
-.fa-solid {
-    color: rgba(109, 255, 235, 0.65);
-    padding-left: 0.1rem;
-    font-size: 3vh;
-}
-
 #nav-toggle:checked~nav {
     display: block;
     top: 2.4rem;
     right: 1rem;
+}
+
+.fa-solid {
+    color: rgba(109, 255, 235, 0.65);
+    padding-left: 0.1rem;
+    font-size: 3vh;
 }
 
 /* Main sections styling */
@@ -132,43 +132,40 @@ main {
     flex: 1 0 auto;
 }
 
-.test {
-    position: sticky;
-    background-color: rgba(213, 218, 222, 0.15);
-    margin-top: 100px;
-    bottom: 10vh;
-    max-height: 200vh;
-    z-index: -1;
-}
-
 /* Footer styling */
 footer {
+    position:fixed;
+    display: none;
     display: flex;
-    width: 99.8vw;
-    position: fixed;
-    bottom: 0;
     justify-content: center;
     align-items: center;
 }
 
-#footerContainer {
-    display: flex;
-    width: 100%;
-    border-radius: 7px;
-    letter-spacing: 0.09rem;
-    align-items: center;
-    font-size: 4.5vh;
-    padding: 3vh;   
-    background-color: rgba(20, 20, 12, 0);
-    color: rgba(144, 249, 235, 0);
-    border-width: 0;
+#social-button {
+    position: fixed;
+    bottom: 2.4rem;
+    right: 1rem;
+    z-index: 100;
 }
 
-#footerContainer:hover {
-    background-color: rgba(20, 20, 12, .951);
+#social-toggle {
+    display: none;
+}
+
+#social-toggle:checked~footer {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.502);
+    z-index: -1;
+    height: 8vh;
+    width: 99.8vw;
+    bottom: 0;
+    border-width: 0.1vh;
     border-style: solid;
-    border-width: 0.1px;
-    border-color: rgba(144, 249, 235, 0.5);
+    border-color:  rgba(78, 154, 174, 0.854);
+    border-radius: 1vh 1vh 0 0
 }
 
 /* Background video sizing and position */
