@@ -164,7 +164,7 @@ footer {
     border-width: 0;
 }
 
-#footerContainer:focus, #footerContainer:active {
+#footerContainer:focus {
     background-color: rgba(20, 20, 12, .951);
     border-style: solid;
     border-width: 0.1px;
