@@ -35,8 +35,7 @@ header {
     align-items: center;
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.854);
-    border-width: 2px;
-    box-shadow: 1px -3px rgba(175, 174, 174, 0.276);
+    border-width: 0.1px;
 }
 
 header a {
@@ -48,6 +47,7 @@ h1 {
     flex-grow: 9;
     font-size: 4.2vh;
     color: rgba(109,255,235, 0.65);
+    margin-left: -0.25rem;
 }
 
 /* Nav bar styling */
@@ -81,16 +81,44 @@ nav li {
     align-items: flex-end;
     list-style-type: none;
     border-radius: 5px;
+    position: fixed;
+    top: 3rem;
+    right: 0.3rem;
 }
 
 #nav-toggle {
     position: fixed;
     top: 2.4rem;
     right: 1rem;
+    display: none;
+}
+
+.nav-toggle-label {
+    position: fixed;
+    top: 3.7vh;
+    right: 1.5vh;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: rgba(17, 69, 128, 0.3);
+    border-style: solid;
+    border-color: rgba(78, 154, 174, 0.854);
+    border-width: 0.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-solid {
+    color: rgba(109,255,235, 0.65);
+    padding-left: 0.1rem;
+    font-size: 3vh;
 }
 
 #nav-toggle:checked~nav {
     display: block;
+    top: 2.4rem;
+    right: 1rem;
 }
 
 /* Main sections styling */
@@ -104,8 +132,7 @@ main {
 footer {
     display: flex;
     width: 98vw;
-    margin-bottom: 0.3vh; 
-    background-color: rgba(47, 13, 68, 0.726);
+    margin-bottom: 0.3vh;
     position: fixed;
     bottom: 0;
     border-radius: 7px;
@@ -115,8 +142,7 @@ footer {
     padding: 3vh;
     border-style: solid;
     background-color: rgba(20, 20, 12, 0.509);
-    border-width: 2px;
-    box-shadow: 1px -4px rgba(236, 234, 234, 0.276);
+    border-width: 0.1px;
     color: rgba(144, 249, 235, 0.65);
 }
 
