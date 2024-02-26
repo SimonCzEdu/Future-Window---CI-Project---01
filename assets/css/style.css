@@ -79,15 +79,16 @@ nav li {
 }
 
 #menu {
-    /* background-color: rgba(255, 0, 0, 0.338); */
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     border-radius: 5px;
     position: fixed;
-    top: 11.5vh;
-    right: 1vh;
+    top: 6.5vh;
+    right: 0;
 }
 
 #nav-toggle {
@@ -137,12 +138,12 @@ main {
     padding-top: 10vh;
     padding-left: 2vh;
     padding-right: 2vh;
-
+    z-index: -1;
 }
 
 /* Footer styling */
 footer {
-    position:fixed;
+    position: fixed;
     display: none;
     display: flex;
     justify-content: center;
@@ -162,7 +163,7 @@ footer {
 
 .social-toggle-label {
     position: fixed;
-    bottom: 9vh;
+    bottom: 2vh;
     right: 1vh;
 }
 
@@ -178,7 +179,7 @@ footer {
     bottom: 0;
     border-width: 0.1vh;
     border-style: solid;
-    border-color:  rgba(78, 154, 174, 0.854);
+    border-color: rgba(78, 154, 174, 0.854);
     border-radius: 1vh 1vh 0 0
 }
 
