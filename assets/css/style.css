@@ -179,6 +179,7 @@ main {
 
 #social-toggle:checked~footer {
     display: flex;
+    flex-direction: row;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -201,6 +202,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#social-links {
+    display: flex;
+    list-style: none;
 }
 
 /* Background video sizing and positing */
