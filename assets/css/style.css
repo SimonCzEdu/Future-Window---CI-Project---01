@@ -1,11 +1,20 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Asterisk to override defaults */
+/* Asterisk: override defaults */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    /* Hide scrollbar for IE, Edge and Firefox following instructions from: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Asterisk: hide scrollbar for Chrome, Safari and Opera following instructions from: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+*::-webkit-scrollbar {
+    display: none;
 }
 
 /* General styles */
@@ -141,7 +150,7 @@ main {
     z-index: -1;
 }
 
-/* Footer styling */
+/* Footer  general styling */
 /* Footer visibility button styling */
 #social-button {
     position: fixed;
@@ -184,7 +193,7 @@ main {
     border-radius: 1vh 1vh 0 0
 }
 
-/* Main Footer element styling */
+/* Footer element styling */
 
 footer {
     position: fixed;
@@ -194,7 +203,7 @@ footer {
     align-items: center;
 }
 
-/* Background video sizing and position */
+/* Background video sizing and positing */
 #bgVid {
     display: flex;
     justify-content: center;
