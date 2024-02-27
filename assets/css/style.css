@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(3, 2, 2);
-    z-index: -1;
+    z-index: -10;
 
     /* Temporary font style */
     color: #fbfbfbbe;
@@ -175,6 +175,7 @@ main {
     background-color: rgba(20, 20, 12, 0.9);
     border-color: rgba(78, 154, 174, 0.5);
     color: rgba(109, 255, 235, 0.65);
+    z-index: 10;
 }
 
 #social-toggle:checked~footer {
@@ -184,7 +185,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.502);
-    z-index: -1;
+    z-index: 1;
     height: 8vh;
     width: 99.8vw;
     bottom: 0;
@@ -202,11 +203,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #social-links {
     display: flex;
     list-style: none;
+    z-index: 10;
 }
 
 /* Background video sizing and positing */
