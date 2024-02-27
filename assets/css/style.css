@@ -200,13 +200,10 @@ main {
 footer {
     position: fixed;
     display: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
 }
 
 #social-links {
+    position: relative;
     display: flex;
     list-style: none;
     z-index: 10;
