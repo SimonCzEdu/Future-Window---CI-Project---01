@@ -142,14 +142,7 @@ main {
 }
 
 /* Footer styling */
-footer {
-    position: fixed;
-    display: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Footer visibility button styling */
 #social-button {
     position: fixed;
     bottom: 2.4rem;
@@ -189,6 +182,16 @@ footer {
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.5);
     border-radius: 1vh 1vh 0 0
+}
+
+/* Main Footer element styling */
+
+footer {
+    position: fixed;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Background video sizing and position */
