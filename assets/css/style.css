@@ -203,10 +203,24 @@ footer {
 }
 
 #social-links {
+    width: 100vw;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     z-index: 10;
+}
+
+#social-links li {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.fa-brands {
+    color: rgba(109, 255, 235, 0.65);
+    font-size: 4vh;
 }
 
 /* Background video sizing and positing */
