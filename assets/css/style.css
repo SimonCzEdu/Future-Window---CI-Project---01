@@ -187,7 +187,7 @@ main {
     background-color: rgba(0, 0, 0, 0.502);
     z-index: 1;
     height: 8vh;
-    width: 99.8vw;
+    width: 99.9vw;
     bottom: 0;
     border-width: 0.1vh;
     border-style: solid;
@@ -203,7 +203,7 @@ footer {
 }
 
 #social-links {
-    width: 100vw;
+    width: 80vw;
     position: relative;
     display: flex;
     justify-content: center;
