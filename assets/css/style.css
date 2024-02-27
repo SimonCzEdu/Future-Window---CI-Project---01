@@ -129,10 +129,10 @@ nav li {
     right: 1rem;
 }
 
-.fa-solid {
+.fa-solid, .fa-regular {
     color: rgba(109, 255, 235, 0.65);
     padding-left: 0.1rem;
-    font-size: 100%;
+    font-size: 3vh;
 }
 
 /* Main sections styling */
