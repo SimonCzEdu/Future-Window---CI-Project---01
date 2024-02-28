@@ -139,16 +139,31 @@ nav li {
 /* Main sections styling */
 main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     letter-spacing: 0.5vh;
     background-color: rgba(255, 255, 255, 0);
     /* Let Main element take all of the space */
-    flex: 1 0 auto;
-    padding-top: 10vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    flex: 1  0 auto;
     z-index: -1;
+    width: 90vw;
+    gap: 5vh;
+}
+
+.toRight {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0.62);
+    width: 100%;
+}
+
+.toLeft {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 255, 0.6);
+    width: 100%;
+    
 }
 
 #heroImgContainer {
