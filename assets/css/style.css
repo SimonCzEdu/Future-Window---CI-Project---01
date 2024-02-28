@@ -148,7 +148,15 @@ main {
     flex: 1  0 auto;
     z-index: -1;
     width: 90vw;
-    gap: 5vh;
+    margin: 17vh 0 10vh;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;    
 }
 
 .toRight {
