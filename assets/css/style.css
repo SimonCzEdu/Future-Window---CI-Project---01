@@ -153,17 +153,22 @@ main {
 
 .toRight {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(255, 0, 0, 0.62);
-    width: 100%;
 }
 
 .toLeft {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 255, 0.6);
+    background-color: rgba(0, 0, 255, 0.6);    
+}
+
+.sectionImgContainer {
+    background-image: url(../image/bernard-hermant-uQNmPscyWg0-unsplash.jpg);
     width: 100%;
-    
+    height: 10vh;
 }
 
 #heroImgContainer {
@@ -176,7 +181,8 @@ main {
 }
 
 #heroImg {
-    ;
+    height: 100px;
+
 }
 
 /* Footer  general styling */
