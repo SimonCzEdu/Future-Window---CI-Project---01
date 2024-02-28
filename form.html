@@ -12,7 +12,7 @@
         content="Future Windows, window, door, slider, door installation, window installation, modern design, window company">
 
     <!-- Title -->
-    <title>Future Windows - Contact Us</title>
+    <title>Future Windows</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
 
         <!-- Logo and linking hook  -->
@@ -34,23 +35,59 @@
         </a>
 
         <!-- Set up for CSS dropdown menu -->
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"></label>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle" checked>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 
         <!-- Navbar -->
-        <div id="navbar">
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="form.html" class="active">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="navLink" class="active">Home</a></li>
+                <li><a href="products.html" class="navLink">Products</a></li>
+                <li><a href="form.html" class="navLink">Contact Us</a></li>
+            </ul>
+        </nav>
 
     </header>
-    <main>Main</main>
-    <footer>Footer</footer>
+
+    <!-- Main -->
+    <main id="test-absolute">
+
+        <section id="heroImgContainer">
+        </section>
+
+    </main>
+
+    <!-- Social Button -->
+    <input type="checkbox" name="social-toggle" id="social-toggle" checked>
+    <label for="social-toggle" class="social-toggle-label"><i class="fa-regular fa-square-caret-down"></i></label>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-links">
+            <li><a href="http://facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Find us on Facebook (new tab will be opened for your)"><i
+                        class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="http://youtube.com/" target="_blank" rel="noopener"
+                    aria-label="See our products in motion on Youtube (new tab will be opened for your)"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="http://instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram for photos from finished projects(new tab will be opened for your)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="http://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Share your thoughts with us on Twitter (new tab will be opened for your)"><i
+                        class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <!-- Scripts -->
+    <!-- Font Awesome Import -->
+    <script src="https://kit.fontawesome.com/76cbc814f1.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
