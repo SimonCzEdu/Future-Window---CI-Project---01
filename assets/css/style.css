@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    z-index: -10;
+    z-index: -100;
 
     /* Temporary font style */
     color: #fbfbfbbe;
@@ -45,6 +45,7 @@ header {
     border-style: solid;
     border-color: rgba(78, 154, 174, 0.5);
     border-width: 0.1px;
+    z-index: 100;
 }
 
 header a {
@@ -146,9 +147,13 @@ main {
     background-color: rgba(255, 255, 255, 0);
     /* Let Main element take all of the space */
     flex: 1  0 auto;
-    z-index: -1;
     width: 90vw;
     margin: 17vh 0 10vh;
+    z-index: 50;
+}
+
+#futureWindowsEM {
+    font-size: 120%;
 }
 
 #mainContainer {
@@ -160,23 +165,28 @@ main {
 }
 
 .toRight {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgba(255, 0, 0, 0.62);
+    /* background-color: rgba(255, 0, 0, 0.62); */
 }
 
 .toLeft {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(0, 0, 255, 0.6);    
+    flex-wrap: wrap;   
+}
+
+.sectionTextContainer {
 }
 
 .sectionImgContainer {
     background-image: url(../image/bernard-hermant-uQNmPscyWg0-unsplash.jpg);
-    width: 100%;
-    height: 10vh;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 400px;
+    border-radius: 5vh;
 }
 
 #heroImgContainer {
@@ -218,7 +228,7 @@ main {
     background-color: rgba(20, 20, 12, 0.9);
     border-color: rgba(78, 154, 174, 0.5);
     color: rgba(109, 255, 235, 0.65);
-    z-index: 10;
+    z-index: 100;
 }
 
 #social-toggle:checked~footer {
@@ -228,7 +238,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.502);
-    z-index: 1;
+    z-index: 70;
     height: 8vh;
     width: 99.9vw;
     bottom: 0;
