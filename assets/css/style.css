@@ -37,7 +37,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: rgba(20, 20, 12, 0.9);
+    background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
     top: 1vh;
     border-radius: 0.5vh;
@@ -113,14 +113,7 @@ nav li {
     top: 11.4vh;
     right: 0vh;
     padding: 1vh 0.7vh;
-    border-style: solid;
-    border-radius: 1vh 0 0 1vh;
-    border-width: 0.1px;
-    color: rgba(109, 255, 235, 0.65);
-    background-color: rgba(20, 20, 12, 0.9);
-    border-color: rgba(78, 154, 174, 0.5);
     z-index: 1;
-    font-size: ;
 }
 
 
@@ -128,13 +121,6 @@ nav li {
     display: block;
     top: 2.4rem;
     right: 1rem;
-}
-
-.fa-solid,
-.fa-regular {
-    color: rgba(109, 255, 235, 0.65);
-    padding-left: 0.1rem;
-    font-size: 3vh;
 }
 
 /* Main sections styling */
@@ -145,10 +131,9 @@ main {
     justify-content: center;
     letter-spacing: 0.5vh;
     background-color: rgba(255, 255, 255, 0);
-    /* Let Main element take all of the space */
     flex: 1  0 auto;
     width: 90vw;
-    margin: 17vh 0 10vh;
+    margin: 100vh 0 10vh;
     z-index: 50;
 }
 
@@ -169,7 +154,6 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: rgba(255, 0, 0, 0.62); */
 }
 
 .toLeft {
@@ -179,6 +163,7 @@ main {
 }
 
 .sectionTextContainer {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .sectionImgContainer {
@@ -222,12 +207,7 @@ main {
     bottom: 1vh;
     right: 0vh;
     padding: 1vh;
-    border-style: solid;
-    border-radius: 1vh 0 0 1vh;
-    border-width: 0.1px;
-    background-color: rgba(20, 20, 12, 0.9);
-    border-color: rgba(78, 154, 174, 0.5);
-    color: rgba(109, 255, 235, 0.65);
+
     z-index: 100;
 }
 
@@ -237,7 +217,7 @@ main {
     position: fixed;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.502);
+    background-color: rgba(0, 0, 0, 0.85);
     z-index: 70;
     height: 8vh;
     width: 99.9vw;
@@ -271,8 +251,17 @@ footer {
     justify-content: center;
 }
 
-.fa-brands {
-    color: rgba(109, 255, 235, 0.65);
+/* Icons styling */
+
+.i-chevron {
+    color: rgba(5, 251, 218, 0.824);
+    padding-left: 0.1rem;
+    font-size: 3vh;
+}
+
+.i-socials {
+    color: rgba(5, 251, 218, 0.824);
+    padding-left: 0.1rem;
     font-size: 4vh;
 }
 
