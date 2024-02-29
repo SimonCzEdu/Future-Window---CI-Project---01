@@ -61,25 +61,22 @@ h1 {
 
 /* Nav bar styling */
 nav {
+    padding: 10vh 0 0 0;
+    display: flex;
     position: fixed;
-    display: none;
-    right: 1rem;
-    top: 3rem;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 nav li {
     align-items: center;
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
 }
 
 .navLink {
     color: rgba(109, 255, 235, 0.65);
-    margin: 1rem 0;
     background-color: rgba(20, 20, 12, 0.9);
     border-radius: 3px;
-    padding: 2px;
-    margin: 2px;
     font-size: 2.5vh;
     letter-spacing: 0.09rem;
     border-style: solid;
@@ -88,39 +85,33 @@ nav li {
 }
 
 #menu {
-    width: 100vw;
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label-off {
+    display: flex;
+    flex-grow: 1;
+    z-index: 1;
+    flex-direction: row-reverse;
+}
+
+
+.nav-toggle-label-on {
+
+}
+
+
+#nav-toggle:checked~#menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     border-radius: 5px;
-    position: fixed;
-    top: 6.5vh;
-    right: 0;
-}
-
-#nav-toggle {
-    position: fixed;
-    top: 2.4rem;
-    right: 1rem;
-    display: none;
-}
-
-.nav-toggle-label {
-    display: flex;
-    position: fixed;
-    top: 11.4vh;
-    right: 0vh;
-    padding: 1vh 0.7vh;
-    z-index: 1;
-}
-
-
-#nav-toggle:checked~nav {
-    display: block;
-    top: 2.4rem;
-    right: 1rem;
 }
 
 /* Main sections styling */
@@ -256,7 +247,7 @@ footer {
 .i-chevron {
     color: rgba(5, 251, 218, 0.824);
     padding-left: 0.1rem;
-    font-size: 3vh;
+    font-size: 3.9vh;
 }
 
 .i-socials {
