@@ -39,7 +39,7 @@ header {
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
-    top: 1vh;
+    top: 0.5vh;
     border-radius: 0.5vh;
     letter-spacing: 0.09rem;
     border-style: solid;
@@ -198,7 +198,7 @@ main {
     display: flex;
     z-index: 100;
     position: fixed;
-    bottom: 1.8vh;
+    bottom: 0.8vh;
     right: 0;
 }
 
@@ -210,7 +210,7 @@ main {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.85);
     z-index: 70;
-    height: 8vh;
+    height: 6vh;
     width: 99.9vw;
     bottom: 0;
     border-width: 0.1vh;
