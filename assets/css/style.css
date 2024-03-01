@@ -223,9 +223,9 @@ main {
 
 }
 
-.gallery,
-.specification {
-    background-color: black;
+#galleryAnchor,
+#specAnchor {
+        
 }
 
 /* Footer  general styling */
