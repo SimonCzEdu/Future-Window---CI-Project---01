@@ -198,7 +198,7 @@ main {
     display: flex;
     z-index: 100;
     position: fixed;
-    bottom: 2vh;
+    bottom: 1.8vh;
     right: 0;
 }
 
