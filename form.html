@@ -34,17 +34,18 @@
             <h1 id="logo">Future Windows</h1>
         </a>
 
+        <!-- Set up for CSS menu hiding -->
+        <input type="checkbox" name="nav-toggle" id="nav-toggle" checked>
+        <label for="nav-toggle" class="nav-toggle-label-off"><iconify-icon icon="mdi:chevron-up-box-outline"
+                class="i-chevron"></iconify-icon></label>
+
         <!-- Navbar -->
         <nav>
-            <!-- Set up for CSS menu hiding -->
-            <input type="checkbox" name="nav-toggle" id="nav-toggle" checked>
-            <label for="nav-toggle" class="nav-toggle-label-off"><iconify-icon icon="jam:chevron-square-left-f"
-                    class="i-chevron"></iconify-icon></label>
 
             <ul id="menu">
-                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="index.html" class="navLink" class="active">Home</a></li>
                 <li><a href="products.html" class="navLink">Products</a></li>
-                <li><a href="form.html" class="navLink" class="active">Contact Us</a></li>
+                <li><a href="form.html" class="navLink">Contact Us</a></li>
             </ul>
 
         </nav>
@@ -59,10 +60,11 @@
 
     </main>
 
+
     <!-- Social Button -->
     <input type="checkbox" name="social-toggle" id="social-toggle" checked>
     <label for="social-toggle" class="social-toggle-label"><iconify-icon class="i-chevron"
-            icon="jam:chevron-square-left-f"></iconify-icon></label>
+            icon="mdi:chevron-down-box-outline"></iconify-icon></label>
 
     <!-- Footer -->
     <footer>
