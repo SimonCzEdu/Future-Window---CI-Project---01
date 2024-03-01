@@ -43,7 +43,7 @@ header {
     border-radius: 0.5vh;
     letter-spacing: 0.09rem;
     border-style: solid;
-    border-color: rgba(78, 154, 174, 0.5);
+    border-color: rgb(5, 251, 218);
     border-width: 0.1px;
     z-index: 100;
 }
@@ -62,11 +62,9 @@ h1 {
 /* Nav bar styling */
 nav {
     padding: 10vh 0 0 0;
-    display: flex;
+    display: none;
     position: fixed;
     width: 90%;
-    align-items: center;
-    justify-content: center;
 }
 
 nav li {
@@ -84,12 +82,15 @@ li a {
     font-size: 2.5vh;
     letter-spacing: 0.09rem;
     border-style: solid;
-    border-color: rgba(78, 154, 174, 0.5);
+    border-color: rgb(5, 251, 218);
     border-width: 0.1px;
 }
 
 #menu {
-    display: none;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
 
 #nav-toggle {
@@ -109,13 +110,10 @@ li a {
 }
 
 
-#nav-toggle:checked~#menu {
+#nav-toggle:checked~nav {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    list-style-type: none;
-    border-radius: 5px;
+    justify-content: center;
 }
 
 /* Main sections styling */
@@ -217,7 +215,7 @@ main {
     bottom: 0;
     border-width: 0.1vh;
     border-style: solid;
-    border-color: rgba(78, 154, 174, 0.5);
+    border-color: rgb(5, 251, 218);
     border-radius: 1vh 1vh 0 0
 }
 
@@ -229,8 +227,9 @@ footer {
 }
 
 #social-links {
-    width: 80vw;
     position: relative;
+    width: 80vw;
+    right: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
