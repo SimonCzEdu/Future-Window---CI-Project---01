@@ -218,14 +218,24 @@ main {
     z-index: 100;
 }
 
+/* Hero Image */
 #heroImg {
     height: 100px;
 
 }
 
+/* Gallery section of Products */
+
 #galleryAnchor,
 #specAnchor {
-        
+    
+}
+
+#gallery {
+}
+
+#photos img {
+    width: 100%;
 }
 
 /* Footer  general styling */
