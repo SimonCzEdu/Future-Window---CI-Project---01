@@ -292,7 +292,7 @@ main {
     background-color: #ffffffcc;
     border-radius: 1vh;
     padding: 0.5vh 1vh;
-    
+
 }
 
 .photos img {
@@ -392,16 +392,10 @@ video {
 
 /* Media queries */
 
-
-
 /* Media query up to Galaxy Fold - Horizontal */
 @media screen and (min-width: 653px) {
     header {
         letter-spacing: 0.7rem;
-    }
-
-    header a {
-        display: flex;
     }
 
     h1 {
@@ -453,10 +447,60 @@ video {
 
 }
 
-    /* Media query: tablet and larger (667px and up)*/
-    @media screen and (min-width: 667px) {
-        #heroImgSection {
-            height: 100lvh;
-            width: 100lvh;
-        }
+/* Media query: vertical views on phones (667px and up)*/
+@media screen and (min-width: 667px) {
+    #heroImgSection {
+        height: 100lvh;
+        width: 100lvh;
     }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 4vh;
+    }
+
+    .navLink {
+        font-size: 1.5vh;
+    }
+
+    .i-chevron {
+        font-size: 5vh;
+    }
+
+    .i-socials {
+        font-size: 5vh;
+    }
+
+    .nav-products>ul,
+    #menu-1>li {
+        flex-basis: 0;
+    }
+
+    #social-toggle:checked~footer {
+        height: 9vh;
+    }
+
+    #heroImgSection {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        position: relative;
+        top: 0;
+        height: 43vw;
+        width: 43vw;
+    }
+
+    #galleryAnchor,
+    #specAnchor {
+        display: flex;
+        justify-content: center;
+        font-size: 5.2vh;
+    }
+
+    #nav-toggle:checked~.nav-reg,
+    #nav-toggle:checked~.nav-products {
+        margin: 11vh 0 0 0;
+    }
+
+}
