@@ -214,6 +214,7 @@ main {
     top: 0;
     height: 800px;
     width: 50%;
+    z-index: -1;
     background: url("../image/Open_your_window_to_the_future_GENERATED-WITH-AI.jpg") no-repeat bottom center/cover ;
 }
 
@@ -383,6 +384,8 @@ video {
 
 /* Media queries */
 
+
+
 /* Media query Galaxy Fold - Horizontal */
 @media screen and (min-width: 653px) and (max-width: 654px) {
     header {
@@ -398,4 +401,46 @@ video {
         color: rgb(5, 251, 218);
         margin-left: -0.25rem;
     }
+
+    .navLink {
+        font-size: 4vh;
+    }
+
+    .i-chevron {
+        font-size: 7.5vh;
+    }
+
+    .i-socials {
+        font-size: 7.5vh;
+    }
+
+    .nav-products > ul, #menu-1 > li {
+        flex-basis: 0;
+    }
+
+    #social-toggle:checked~footer {
+        height: 9vh;
+    }
+
+    #heroImgSection {
+        top: 28px;
+        height: 205px;
+        width: 45%; }
+
+    #galleryAnchor, #specAnchor {
+        display: flex;
+        justify-content: center;
+        padding-top: 80vh;
+        font-size: 5.2vh;
+    }
+
+    #nav-toggle:checked~.nav-reg, #nav-toggle:checked~.nav-products {
+        margin: 11vh 0 0 0;
+    }  
+
+/* Media query: tablet and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+}
+
 }
