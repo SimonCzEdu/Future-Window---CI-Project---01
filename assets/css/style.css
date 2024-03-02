@@ -160,7 +160,7 @@ li a {
     width: 100%;
 }
 
-/* Main sections styling */
+/* Main sections styling (all pages) */
 main {
     display: flex;
     flex-direction: column;
@@ -170,20 +170,8 @@ main {
     background-color: rgba(255, 255, 255, 0);
     flex: 1 0 auto;
     width: 90vw;
-    margin: 40vh 0 10vh 0;
+    margin: 0 0 10vh 0;
     z-index: 50;
-}
-
-#futureWindowsEM {
-    font-size: 120%;
-}
-
-#mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10vh;
 }
 
 .toRight {
@@ -211,7 +199,20 @@ main {
     border-radius: 5vh;
 }
 
-/* Hero Image */
+#futureWindowsEM {
+    font-size: 120%;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+}
+
+
+/* Hero Image for Products and Form*/
 
 #heroImgSection {
     display: flex;
@@ -237,9 +238,51 @@ main {
 
 /* Gallery section of Products */
 
+#keepOutCold {
+    background: url() no-repeat center center/cover;
+}
+
+#letInLight {
+    background: url(../image/Let-in-the-light-AI\ generated.jpg) no-repeat center center/cover;
+}
+
+#letInLight, #keepOutCold {
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    justify-content: center;
+    height: 95vw;
+    width: 95vw;
+    border-radius: 2vh;
+    gap: 28.5vh
+}
+
+#letInLight > h4, #letInLight > p, #keepOutCold > h4, #keepOutCold > p {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    background-color: #eeefdae0;
+    border-radius: 1vh;
+    font-size: 2vh;
+    color: #0b1c57;
+}
+
+#letInLight > h4,#keepOutCold > h4 {
+    font-size: 2.5vh;
+}
+
+#letInLight > p,#keepOutCold > p {
+    text-align: center;
+    width: 95%;
+}
+
 #galleryAnchor,
 #specAnchor {
-    padding-top: 40vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    font-size: 5.2vh;
 }
 
 #gallery {
