@@ -169,7 +169,7 @@ main {
     letter-spacing: 0.5vh;
     background-color: rgba(255, 255, 255, 0);
     flex: 1 0 auto;
-    width: 90vw;
+    width: 100vw;
     margin: 0 0 10vh 0;
     z-index: 50;
 }
@@ -266,13 +266,14 @@ main {
     border-radius: 1vh;
     font-size: 2vh;
     color: #0b1c57;
+    z-index: 50;
 }
 
-#letInLight > h4,#keepOutCold > h4 {
+#letInLight > h4, #keepOutCold > h4 {
     font-size: 2.5vh;
 }
 
-#letInLight > p,#keepOutCold > p {
+#letInLight > p, #keepOutCold > p {
     text-align: center;
     width: 95%;
 }
@@ -288,7 +289,7 @@ main {
 #gallery {
 }
 
-#photos img {
+.photos img {
     width: 100%;
 }
 
