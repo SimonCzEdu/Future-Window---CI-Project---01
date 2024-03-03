@@ -239,7 +239,7 @@ main {
 }
 
 #keepOutCold {
-    background: url() no-repeat center center/cover;
+    background: url(../image/Cold/Keep-out-the-cold.jpeg) no-repeat center center/cover;
 }
 
 #letInLight {
