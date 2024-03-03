@@ -186,7 +186,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vh;
+    gap: 0.5vh;
 }
 
 .sectionTextContainer {
@@ -202,24 +202,57 @@ main {
     background-color: #24272fd9;
     text-align: center;
     border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.sectionTextContainer h4 {
+.toRight > .sectionTextContainer h4 {
     font-size: 2.5vh;
     background-color: #24272fd9;
     text-align: center;
     width: 60%;
-    align-self: center;
+    align-self: flex-end;
+    border-radius: 3px;
+    padding: 0.5vh 0;
+    margin: 0.5vh 0;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.toLeft > .sectionTextContainer h4 {
+    font-size: 2.5vh;
+    background-color: #24272fd9;
+    text-align: center;
+    width: 60%;
+    align-self: flex-start;
     border-radius: 3px;
     padding: 0.5vh 0;
     margin: 0.5vh 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+.toRight > .sectionTextContainer p {
+    font-size: 1.5vh;
+    background-color: #24272fd9;
+    text-align: center;
+    border-radius: 3px;
+    width: 90%;
+    align-self: flex-end;
+}
+
+.toLeft > .sectionTextContainer p {
+    font-size: 1.5vh;
+    background-color: #24272fd9;
+    text-align: center;
+    border-radius: 3px;
+    width: 90%;
+    align-self: flex-start;
+}
+
 
 /* Background images for "who what how" */
 .who {
     background-image: url("../image/Who.jpeg");
     width: 100%;
-    height: 30vh;
+    height: 22vh;
     border-radius: 5px;
     background-position: center;
     background-repeat: no-repeat;
@@ -479,6 +512,25 @@ video {
         width: 43vw;
     }
 
+    #mainContainer {
+        margin: 18vh 0 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .who {
+        height: 71vh;
+    }
+
+    .what {
+        height: 71vh;
+    }
+
+    .how {
+        height: 71vh;
+    }
+
     /* Gallery */
     .photos {
         column-count: 3;
@@ -511,6 +563,12 @@ video {
     #heroImgSection {
         height: 100lvh;
         width: 100lvh;
+    }
+
+    #mainContainer {
+        margin: 18vh 0;
+        display: flex;
+        flex-direction: row;
     }
 
 }
