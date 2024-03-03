@@ -194,7 +194,7 @@ main {
 .sectionTextContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .sectionTextContainer p {
@@ -216,7 +216,7 @@ main {
     width: 100%;
     height: 30vh;
     border-radius: 5px;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -226,7 +226,7 @@ main {
     width: 100%;
     height: 30vh;
     border-radius: 5px;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -236,7 +236,7 @@ main {
     width: 100%;
     height: 30vh;
     border-radius: 5px;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
