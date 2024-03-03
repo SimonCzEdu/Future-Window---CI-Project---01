@@ -231,8 +231,11 @@ main {
 /* Gallery section of Products */
 
 #gallery {
+    display: flex;
+    flex-direction: column;
     margin: 11vh 0 0 0;
     position: relative;
+    align-items: center;
 }
 
 #keepOutCold {
@@ -282,9 +285,8 @@ main {
 #galleryAnchor,
 #specAnchor {
     padding: 20vh 0 0 0;
-    display: flex;
     justify-content: center;
-    font-size: 5.2vh;
+    align-content: center;
 }
 
 #galleryAnchor p {
