@@ -390,7 +390,7 @@ video {
 /* Media queries */
 
 /* Media query up to Galaxy Fold - Horizontal */
-@media screen and (min-width: 653px) {
+@media screen and (min-width: 576px) {
     header {
         letter-spacing: 0.7rem;
     }
@@ -409,14 +409,14 @@ video {
         font-size: 9.2vh;
     }
 
-    .nav-products>ul,
-    #menu-1>li {
-        flex-basis: 0;
-    }
-
     #heroImgSection {
         height: 43vw;
         width: 43vw;
+    }
+
+    .nav-products>ul,
+    #menu-1>li {
+        flex-basis: 0;
     }
 
     #galleryAnchor,
