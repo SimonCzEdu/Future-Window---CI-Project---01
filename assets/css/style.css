@@ -263,12 +263,12 @@ main {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 80%;
     background-color: #eeefdae0;
     border-radius: 1vh;
     font-size: 2vh;
     color: #0b1c57;
     z-index: 50;
+    padding: 3vh;
 }
 
 #letInLight>h4,
@@ -399,6 +399,7 @@ video {
 
 /* Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
+
     /* Header */
     header {
         letter-spacing: 0.7rem;
@@ -408,6 +409,7 @@ video {
         font-size: 7vh;
         letter-spacing: 0.7rem;
     }
+
     /* Nav menu */
     .navLink {
         font-size: 4vh;
@@ -417,21 +419,29 @@ video {
     #menu-1>li {
         flex-basis: 0;
     }
+
     /* Dropdown Icons */
     .i-chevron,
     .i-socials {
         font-size: 9.2vh;
     }
+
     /* Hero Image */
     #heroImgSection {
         height: 43vw;
         width: 43vw;
     }
+
     /* Gallery */
     .photos {
         column-count: 3;
         column-gap: 5px;
     }
+
+    #letInLight>h4, #keepOutCold>h4 {
+        font-size: 4.5vh;
+    }
+
     #galleryAnchor,
     #specAnchor {
         font-size: 10vh;
@@ -448,6 +458,7 @@ video {
 
 /* Media query: vertical views on phones (667px and up).*/
 @media screen and (min-width: 667px) {
+
     /* Hero image */
     #heroImgSection {
         height: 100lvh;
@@ -458,6 +469,8 @@ video {
 
 /* Media query: tablet and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
+    /* Header */
     header {
         letter-spacing: 5vh;
     }
@@ -466,27 +479,47 @@ video {
         font-size: 5vh;
     }
 
+    /* Nav menu */
     .navLink {
         font-size: 3vh;
     }
 
+    /* Icons */
     .i-chevron,
     .i-socials {
         font-size: 6vh;
     }
 
+    /* Special nav for products */
     .nav-products>ul,
     #menu-1>li {
         flex-basis: 0;
     }
 
+    /* Hero Image */
     #heroImgSection {
         height: 100vw;
         width: 100vw;
     }
 
+    /* Gallery */
+
+    .photos {
+        column-count: 4;
+    }
+
     #galleryAnchor,
     #specAnchor {
         font-size: 5.2vh;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+
+    /* Gallery */
+
+    .photos {
+        column-count: 5;
     }
 }
