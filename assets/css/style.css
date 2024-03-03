@@ -193,6 +193,7 @@ main {
 
 .sectionTextContainer p {
     font-size: 1.5vh;
+    background-color: #24272fd9;
 }
 
 /* Background images for "who what how" */
