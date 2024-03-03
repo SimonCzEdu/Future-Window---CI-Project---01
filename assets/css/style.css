@@ -297,8 +297,16 @@ main {
 
 }
 
+.photos {
+    line-height: 20px;
+    background-color: #236f73d6;
+    border-radius: 5px;
+}
+
 .photos img {
     width: 100%;
+    line-height: 1em;
+    border-radius: 5px;
 }
 
 /* Footer  general styling */
@@ -413,6 +421,12 @@ video {
         height: 43vw;
         width: 43vw;
     }
+
+    .photos {
+        column-count: 3;
+        column-gap: 5px;
+    }
+
 
     .nav-products>ul,
     #menu-1>li {
