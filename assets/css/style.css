@@ -95,7 +95,6 @@ li a {
     border-color: rgb(5, 251, 218);
     border-width: 0.2vh;
     padding: 0 0.4vh;
-    margin-top: 7vh;
 }
 
 .nav-toggle-label-off {
@@ -494,7 +493,6 @@ video {
     /* Nav menu */
     .navLink {
         font-size: 5.5vw;
-        margin-top: 6vh;
     }
 
     /* Icons */
@@ -575,7 +573,6 @@ video {
     /* Nav Menu */
     .navLink {
         font-size: 3.5vw;
-        margin-top: 10vw;
     }
 
 
