@@ -669,3 +669,13 @@ video {
         column-count: 5;
     }
 }
+
+
+/* Media query to fit Hero Image on all screen sizes according to screen position */
+@media (orientation: portrait) {
+    /* Hero Image */
+    #heroImgSection {
+        height: 100vw;
+        width: 100vw;
+    }
+}
