@@ -177,7 +177,7 @@ main {
 #mainContainer {
     margin: 12vh 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0.5vh;
@@ -241,35 +241,55 @@ main {
 /* Background images for "who what how" */
 .who {
     background-image: url("../image/Who.jpeg");
-    width: 100%;
-    height: 22vh;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .7;
 }
 
 .what {
     background-image: url("../image/What.jpeg");
-    width: 100%;
-    height: 30vh;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .7;
 }
 
 .how {
     background-image: url("../image/How.jpeg");
+}
+
+.who, .what, .how {
+    height: 73vh;
     width: 100%;
-    height: 30vh;
     border-radius: 5px;
-    background-position: center;
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .7;
+    margin: 4vh 0 0vh 0;
+}
+
+.who>.sectionTextContainer h4 {
+    font-size: 2.5vw;
+    align-self: flex-start;
+}
+
+.who>.sectionTextContainer p {
+    font-size: 1.5vw;
+    align-self: flex-start;
+}
+
+.what>.sectionTextContainer h4 {
+    font-size: 2.5vw;
+    align-self: center;
+}
+
+.what>.sectionTextContainer p {
+    font-size: 1.5vw;
+    align-self: center;
+}
+
+.how>.sectionTextContainer h4 {
+    font-size: 2.5vw;
+    align-self: flex-end;
+}
+
+.how>.sectionTextContainer p {
+    font-size: 1.5vw;
+    align-self: flex-end;
 }
 
 
@@ -298,16 +318,7 @@ main {
     width: 50%;
 }
 
-/* Gallery section of Products */
-
-#gallery {
-    display: flex;
-    flex-direction: column;
-    margin: 11vh 0 0 0;
-    position: relative;
-    align-items: center;
-}
-
+/* Gallery */
 #keepOutCold {
     background: url(../image/Cold/Keep-out-the-cold.jpeg) no-repeat center center/cover;
 }
@@ -352,19 +363,18 @@ main {
     width: 95%;
 }
 
-#galleryAnchor,
-#specAnchor {
+#lightAnchor,
+#coldAnchor {
     padding: 20vh 0 0 0;
     justify-content: center;
     align-content: center;
 }
 
-#galleryAnchor p {
+#lightAnchor p, #coldAnchor p {
     color: #111e56de;
     background-color: #ffffffcc;
     border-radius: 1vh;
     padding: 0.5vh 1vh;
-
 }
 
 .photos {
@@ -496,56 +506,6 @@ video {
         font-size: 9.2vh;
     }
 
-    /* Main */
-    #mainContainer {
-        margin: 18vh 0 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-
-    .who {
-        height: 71vh;
-    }
-
-    .what {
-        height: 71vh;
-    }
-
-    .how {
-        height: 71vh;
-    }
-
-    .who>.sectionTextContainer h4 {
-        font-size: 3.5vh;
-        align-self: flex-start;
-    }
-
-    .who>.sectionTextContainer p {
-        font-size: 2.5vh;
-        align-self: flex-start;
-    }
-
-    .what>.sectionTextContainer h4 {
-        font-size: 3.5vh;
-        align-self: center;
-    }
-
-    .what>.sectionTextContainer p {
-        font-size: 2.5vh;
-        align-self: center;
-    }
-
-    .how>.sectionTextContainer h4 {
-        font-size: 3.5vh;
-        align-self: flex-end;
-    }
-
-    .how>.sectionTextContainer p {
-        font-size: 2.5vh;
-        align-self: flex-end;
-    }
-
     /* Gallery */
     .photos {
         column-count: 3;
@@ -555,12 +515,6 @@ video {
     #letInLight>h4,
     #keepOutCold>h4 {
         font-size: 4.5vh;
-    }
-
-    #galleryAnchor,
-    #specAnchor {
-        font-size: 10vh;
-        padding: 33vh 0 0 0;
     }
 
     #nav-toggle:checked~.nav-reg,
@@ -600,64 +554,12 @@ video {
         flex-basis: 0;
     }
 
-    /* Home Page */
-
-    /* Main */
-    #mainContainer {
-        margin: 18vh 0 0;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .who,
-    .what,
-    .how {
-        height: 30vh;
-        background-position: center;
-    }
-
-    .who>.sectionTextContainer h4 {
-        font-size: 2.5vh;
-        align-self: flex-end;
-    }
-
-    .who>.sectionTextContainer p {
-        font-size: 1.5vh;
-        align-self: flex-end;
-    }
-
-    .what>.sectionTextContainer h4 {
-        font-size: 2.5vh;
-        align-self: flex-start;
-    }
-
-    .what>.sectionTextContainer p {
-        font-size: 1.5vh;
-        align-self: flex-start;
-    }
-
-    .how>.sectionTextContainer h4 {
-        font-size: 3.5vh;
-        align-self: flex-end;
-    }
-
-    .how>.sectionTextContainer p {
-        font-size: 2.5vh;
-        align-self: flex-end;
-    }
-
-
     /* Gallery */
 
     .photos {
         column-count: 4;
     }
 
-    #galleryAnchor,
-    #specAnchor {
-        font-size: 5.2vh;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up */
@@ -671,11 +573,37 @@ video {
 }
 
 
-/* Media query to fit Hero Image on all screen sizes according to screen position */
+/* Media query: Portrait orientation */
 @media (orientation: portrait) {
+
     /* Hero Image */
     #heroImgSection {
-        height: 100vw;
-        width: 100vw;
+        height: 99.5vw;
+        width: 99.5vw;
     }
+
+
+        /* Main */
+
+        #mainContainer {
+            margin: 11vh 0 4vh 0;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    
+        .who, .what, .how {
+            height: 28vh;
+            margin: 0;
+        }   
+        .who > .sectionTextContainer h4,.what > .sectionTextContainer h4, .how > .sectionTextContainer h4 {
+            font-size: 2.5vh;
+            align-self: flex-end;
+        }
+    
+        .who > .sectionTextContainer p,.what > .sectionTextContainer p, .how > .sectionTextContainer p {
+            font-size: 1.53vh;
+            align-self: flex-end;
+        }
+
 }
