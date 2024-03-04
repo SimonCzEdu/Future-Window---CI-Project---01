@@ -62,7 +62,7 @@ h1 {
 }
 
 /* Nav bar styling */
-.nav-reg, .nav-products {
+.nav-reg, .nav-gallery {
     display: none;
     position: fixed;
     top: 0;
@@ -137,7 +137,7 @@ li a {
 }
 
 #nav-toggle:checked~.nav-reg,
-#nav-toggle:checked~.nav-products {
+#nav-toggle:checked~.nav-gallery {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -288,7 +288,7 @@ main {
 }
 
 
-/* Hero Image for Products and Form*/
+/* Hero Image for Gallery and Form*/
 
 #heroImgSection {
     display: flex;
@@ -313,7 +313,7 @@ main {
     width: 50%;
 }
 
-/* Gallery */
+/* Gallery  styling*/
 #keepOutCold {
     background: url(../image/Cold/Keep-out-the-cold.jpeg) no-repeat center center/cover;
 }
@@ -385,6 +385,8 @@ main {
     border-radius: 5px;
 }
 
+/* Form styling */
+
 /* Footer  general styling */
 /* Footer visibility button styling */
 #social-button {
@@ -455,7 +457,7 @@ footer {
     font-size: 5.5vh;
 }
 
-/* Background video sizing and positing */
+/* Background video styling */
 #bgVid {
     display: flex;
     justify-content: center;
@@ -490,7 +492,7 @@ video {
         font-size: 5.5vw;
     }
 
-    .nav-reg, .nav-products {
+    .nav-reg, .nav-gallery {
         margin-top: 11vw;
     }
 
@@ -575,7 +577,7 @@ video {
         font-size: 3.5vw;
     }
 
-    .nav-reg, .nav-products {
+    .nav-reg, .nav-gallery {
         margin-top: 7vh;
     }
 
@@ -620,7 +622,7 @@ video {
         font-size: 5.5vh;
     }
 
-    .nav-reg, .nav-products {
+    .nav-reg, .nav-gallery {
         margin-top: 11vh;
     }
 
