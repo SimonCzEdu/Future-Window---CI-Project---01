@@ -43,7 +43,7 @@ header {
     position: fixed;
     top: 0.5vh;
     border-radius: 0.5vh;
-    letter-spacing: 0.09rem;
+    letter-spacing: 5vh;
     border-style: solid;
     border-color: rgb(5, 251, 218);
     border-width: 0.1px;
@@ -89,12 +89,13 @@ li a {
     color: rgb(5, 251, 218);
     background-color: rgba(20, 20, 12, 0.9);
     border-radius: 0.5vh;
-    font-size: 2.5vh;
+    font-size: 3.5vh;
     letter-spacing: 0.09rem;
     border-style: solid;
     border-color: rgb(5, 251, 218);
     border-width: 0.2vh;
     padding: 0 0.4vh;
+    margin-top: 7vh;
 }
 
 .nav-toggle-label-off {
@@ -143,7 +144,6 @@ li a {
 
 #nav-toggle:checked~.nav-reg,
 #nav-toggle:checked~.nav-products {
-    margin: 7vh 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -251,15 +251,16 @@ main {
     background-image: url("../image/How.jpeg");
 }
 
-.who, .what, .how {
-    height: 73vh;
+.who,
+.what,
+.how {
+    height: 83vh;
     width: 100%;
     border-radius: 5px;
     background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .7;
-    margin: 4vh 0 0vh 0;
 }
 
 .who>.sectionTextContainer h4 {
@@ -370,7 +371,8 @@ main {
     align-content: center;
 }
 
-#lightAnchor p, #coldAnchor p {
+#lightAnchor p,
+#coldAnchor p {
     color: #111e56de;
     background-color: #ffffffcc;
     border-radius: 1vh;
@@ -456,7 +458,7 @@ footer {
 .i-socials {
     display: flex;
     color: rgb(5, 251, 218);
-    font-size: 4.5vh;
+    font-size: 5.5vh;
 }
 
 /* Background video sizing and positing */
@@ -477,104 +479,29 @@ video {
 
 /* Media queries */
 
-/* Media query: large or landscape phones (576px and up)*/
-@media screen and (min-width: 576px) {
+/* Media query: Portrait orientation */
+@media (orientation: portrait) {
 
     /* Header */
     header {
-        letter-spacing: 0.7rem;
+        letter-spacing: 2.5vw;
     }
 
     h1 {
-        font-size: 7vh;
-        letter-spacing: 0.7rem;
+        font-size: 7vw;
     }
 
     /* Nav menu */
     .navLink {
-        font-size: 4vh;
-    }
-
-    .nav-products>ul,
-    #menu-1>li {
-        flex-basis: 0;
-    }
-
-    /* Dropdown Icons */
-    .i-chevron,
-    .i-socials {
-        font-size: 9.2vh;
-    }
-
-    /* Gallery */
-    .photos {
-        column-count: 3;
-        column-gap: 5px;
-    }
-
-    #letInLight>h4,
-    #keepOutCold>h4 {
-        font-size: 4.5vh;
-    }
-
-    #nav-toggle:checked~.nav-reg,
-    #nav-toggle:checked~.nav-products {
-        margin: 11vh 0 0 0;
-    }
-
-}
-
-
-/* Media query: tablet and larger (768px and up)*/
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    header {
-        letter-spacing: 5vh;
-    }
-
-    h1 {
-        font-size: 5vh;
-    }
-
-    /* Nav menu */
-    .navLink {
-        font-size: 3vh;
+        font-size: 5.5vw;
+        margin-top: 6vh;
     }
 
     /* Icons */
     .i-chevron,
     .i-socials {
-        font-size: 6vh;
+        font-size: 9vw;
     }
-
-    /* Special nav for products */
-    .nav-products>ul,
-    #menu-1>li {
-        flex-basis: 0;
-    }
-
-    /* Gallery */
-
-    .photos {
-        column-count: 4;
-    }
-
-}
-
-/* Large devices (laptops and desktops, 992px and up */
-@media screen and (min-width: 992px) {
-
-    /* Gallery */
-
-    .photos {
-        column-count: 5;
-    }
-}
-
-
-/* Media query: Portrait orientation */
-@media (orientation: portrait) {
 
     /* Hero Image */
     #heroImgSection {
@@ -582,28 +509,167 @@ video {
         width: 99.5vw;
     }
 
+    /* Main */
 
-        /* Main */
+    #mainContainer {
+        margin: 11vh 0 4vh 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
-        #mainContainer {
-            margin: 11vh 0 4vh 0;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-        }
-    
-        .who, .what, .how {
-            height: 28vh;
-            margin: 0;
-        }   
-        .who > .sectionTextContainer h4,.what > .sectionTextContainer h4, .how > .sectionTextContainer h4 {
-            font-size: 2.5vh;
-            align-self: flex-end;
-        }
-    
-        .who > .sectionTextContainer p,.what > .sectionTextContainer p, .how > .sectionTextContainer p {
-            font-size: 1.53vh;
-            align-self: flex-end;
-        }
+    .who,
+    .what,
+    .how {
+        height: 27vh;
+        margin: 0;
+    }
+
+    .who>.sectionTextContainer h4 {
+        align-self: flex-end;
+    }
+
+    .what>.sectionTextContainer h4 {
+        align-self: flex-start;
+    }
+
+    .sectionTextContainer h4 {
+        align-self: flex-end;
+    }
+
+    .who>.sectionTextContainer h4,
+    .what>.sectionTextContainer h4,
+    .how>.sectionTextContainer h4 {
+        font-size: 2.5vh;
+    }
+
+    .who>.sectionTextContainer p,
+    .what>.sectionTextContainer p,
+    .how>.sectionTextContainer p {
+        font-size: 1.53vh;
+    }
+
+    .who>.sectionTextContainer p,
+    .how>.sectionTextContainer p {
+        align-self: flex-end;
+    }
+
+    .what>.sectionTextContainer p {
+        align-self: flex-start;
+    }
+
+
+}
+
+@media (orientation: portrait) and (min-width: 540px) {
+
+    /* Header */
+    header {
+        letter-spacing: 2vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    /* Nav Menu */
+    .navLink {
+        font-size: 3.5vw;
+        margin-top: 10vw;
+    }
+
+
+    /* Icons */
+    .i-chevron,
+    .i-socials {
+        font-size: 7vw;
+    }
+
+    /* Main */
+    #mainContainer {
+        margin: 12vh 0 4vh 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+
+    .who,
+    .what,
+    .how {
+        height: 27vh;
+        margin: 0;
+    }
+
+}
+
+@media (max-height: 430px) {
+
+    /* Header */
+    header {
+        letter-spacing: 7vh;
+    }
+
+    h1 {
+        font-size: 7vh;
+    }
+
+    /* Nav menu */
+    .navLink {
+        font-size: 5.5vh;
+        margin-top: 6vw;
+    }
+
+    /* Icons */
+    .i-chevron,
+    .i-socials {
+        font-size: 5vw;
+    }
+
+    /* Hero Image */
+    #heroImgSection {
+        height: 99.5vh;
+        width: 99.5vh;
+    }
+
+    /* Main */
+
+    #mainContainer {
+        margin: 22vh 0 4vh 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .who,
+    .what,
+    .how {
+        height: 64vh;
+        margin-top: 0;
+    }
+
+    .who>.sectionTextContainer h4 {
+        align-self: flex-start;
+    }
+
+    .what>.sectionTextContainer h4 {
+        align-self: center;
+    }
+
+    .how > .sectionTextContainer h4 {
+        align-self: flex-end;
+    }
+
+    .who>.sectionTextContainer h4,
+    .what>.sectionTextContainer h4,
+    .how>.sectionTextContainer h4 {
+        font-size: 5.5vh;
+    }
+
+    .who>.sectionTextContainer p,
+    .what>.sectionTextContainer p,
+    .how>.sectionTextContainer p {
+        font-size: 3.6vh;
+    }
 
 }
