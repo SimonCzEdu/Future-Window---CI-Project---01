@@ -387,6 +387,7 @@ main {
 
 /* Form styling */
 
+/* Main form styling */
 form{
     display: flex;
     flex-wrap: wrap;
@@ -406,6 +407,7 @@ form{
     width: 90%;
     font-size: 5.5vw;
     font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
 }
 
 .formDiv label {
@@ -420,9 +422,56 @@ form{
     border-radius: 5px;
 }
 
+
+/* Submit styling */
+#apply {
+    align-self: center;
+}
+
+#subButton {
+    margin-bottom: 10vw;
+}
+
+/* Map iframe styling */
 #map {
     width: 100vw;
 }
+
+/* Contact info Styling */
+
+#contactInfo {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #24272f;
+    border-radius: 5px;
+}
+
+#contactInfo h2 {
+    align-self: center;
+}
+
+#contactInfo h2, #contactInfo label  {
+    font-size: 7vw;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    margin: 3vw;
+}
+
+#contactInfo p {
+    width: 80%;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    margin: 6vw 4vw;
+}
+
+
+/* Map iframe styling */
+#map {
+    width: 100vw;
+}
+
 
 /* Footer  general styling */
 /* Footer visibility button styling */
