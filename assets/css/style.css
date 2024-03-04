@@ -473,7 +473,7 @@ video {
 
 /* Media queries */
 
-/* Media query: Portrait orientation */
+/* Media query: Portrait orientation general */
 @media (orientation: portrait) {
 
     /* Header */
@@ -558,6 +558,7 @@ video {
 
 }
 
+/* Media query: Portrait orientation for 540px and up*/
 @media (orientation: portrait) and (min-width: 540px) {
 
     /* Header */
@@ -602,6 +603,7 @@ video {
 
 }
 
+/* Media query: for landscape view on phones */
 @media (max-height: 430px) {
 
     /* Header */
