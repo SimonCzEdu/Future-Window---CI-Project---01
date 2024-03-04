@@ -62,16 +62,11 @@ h1 {
 }
 
 /* Nav bar styling */
-.nav-reg {
+.nav-reg, .nav-products {
     display: none;
     position: fixed;
     top: 0;
-}
-
-.nav-products {
-    display: none;
-    position: fixed;
-    top: 0;
+    margin-top: 7vh;
 }
 
 nav li {
@@ -495,6 +490,10 @@ video {
         font-size: 5.5vw;
     }
 
+    .nav-reg, .nav-products {
+        margin-top: 11vw;
+    }
+
     /* Icons */
     .i-chevron,
     .i-socials {
@@ -575,6 +574,9 @@ video {
         font-size: 3.5vw;
     }
 
+    .nav-reg, .nav-products {
+        margin-top: 7vh;
+    }
 
     /* Icons */
     .i-chevron,
@@ -614,7 +616,10 @@ video {
     /* Nav menu */
     .navLink {
         font-size: 5.5vh;
-        margin-top: 6vw;
+    }
+
+    .nav-reg, .nav-products {
+        margin-top: 11vh;
     }
 
     /* Icons */
