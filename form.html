@@ -64,20 +64,20 @@
             <div class="formDiv">
                 <label for="firstName">First name:</label>
                 <br>
-                <input type="text" id="firstName" name="firstName" placeholder="Your first name" value="" required>
+                <input type="text" id="firstName" name="firstName" placeholder="Name" value="" required>
                 <br>
                 <label for="lastName">Last name:</label>
                 <br>
-                <input type="text" id="lastName" name="lastName" placeholder="Your last name" value="" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Surname" value="" required>
                 <br>
                 <label for="phone">Phone number:</label>
                 <br>
-                <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                    value="" required>
+                <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" required>
                 <br>
                 <label for="email">E-mail:</label>
                 <br>
-                <input type="email" id="email" name="email" placeholder="email@google.com" value="" required>
+                <input type="email" id="email" name="email" placeholder="example: email@domain.com" value="" required>
             </div>
 
             <div class="formDiv">
@@ -91,13 +91,34 @@
                 <textarea name="note" id="note"
                     placeholder="Would you like a quote, or would you like us to contact you? Or is there something else we can do for you? Let us know!"></textarea>
             </div>
-            <input type="submit" name="application" id="application" form="request">
-
-            <section id="map">
-                <h4>Visit us!</h4>
-            </section>
-
         </form>
+
+        <div id="subButton">
+            <input type="submit" name="apply" id="apply" form="request">
+        </div>
+
+        <section id="contactInfo">
+            <h2>Contact details</h2>
+            <br>
+            <div id="email-phone">
+                <label for="compEmail">Email:</label>
+                <br>
+                <p id="compEmail">contact@futurewindows.com</p>
+                <br>
+                <label for="compPhone">Phone Number:</label>
+                <br>
+                <p id="compPhone">089 111 1111</p>
+                <br>
+                <label for="compAddress">Address</label>
+                <br>
+                <p id="compAddress">
+                    10 Building Name <br>
+                    Real Street <br>
+                    T99 VR99 <br>
+                    Cork <br>
+                    Co. Cork</p>
+        </section>
+
     </main>
 
 
