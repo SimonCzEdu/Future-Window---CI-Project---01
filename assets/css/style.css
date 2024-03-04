@@ -164,13 +164,7 @@ main {
     z-index: 50;
 }
 
-.toRight {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.toLeft {
+.mainSecGen {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,42 +197,38 @@ main {
     text-align: center;
     border-radius: 3px;
     font-family: 'Roboto', sans-serif;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    width: 90%;
 }
 
-.toRight > .sectionTextContainer h4 {
+.sectionTextContainer h4 {
     font-size: 2.5vh;
     background-color: #24272fd9;
     text-align: center;
     width: 60%;
-    align-self: flex-end;
-    border-radius: 3px;
-    padding: 0.5vh 0;
-    margin: 0.5vh 0;    
-    font-family: 'Roboto', sans-serif;
-}
-
-.toLeft > .sectionTextContainer h4 {
-    font-size: 2.5vh;
-    background-color: #24272fd9;
-    text-align: center;
-    width: 60%;
-    align-self: flex-start;
     border-radius: 3px;
     padding: 0.5vh 0;
     margin: 0.5vh 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.toRight > .sectionTextContainer p {
-    font-size: 1.5vh;
-    background-color: #24272fd9;
-    text-align: center;
-    border-radius: 3px;
-    width: 90%;
+.who>.sectionTextContainer h4,
+.how>.sectionTextContainer h4 {
+    align-self: flex-end;
+
+}
+
+.what>.sectionTextContainer h4 {
+    align-self: flex-start;
+}
+
+.who>.sectionTextContainer p,
+.how>.sectionTextContainer p {
     align-self: flex-end;
 }
 
-.toLeft > .sectionTextContainer p {
+.what>.sectionTextContainer p {
     font-size: 1.5vh;
     background-color: #24272fd9;
     text-align: center;
@@ -508,8 +498,8 @@ video {
 
     /* Hero Image */
     #heroImgSection {
-        height: 43vw;
-        width: 43vw;
+        height: 51vw;
+        width: 51vw;
     }
 
     #mainContainer {
@@ -529,6 +519,36 @@ video {
 
     .how {
         height: 71vh;
+    }
+
+    .who>.sectionTextContainer h4 {
+        font-size: 3.5vh;
+        align-self: flex-start;
+    }
+
+    .who>.sectionTextContainer p {
+        font-size: 2.5vh;
+        align-self: flex-start;
+    }
+
+    .what>.sectionTextContainer h4 {
+        font-size: 3.5vh;
+        align-self: center;
+    }
+
+    .what>.sectionTextContainer p {
+        font-size: 2.5vh;
+        align-self: center;
+    }
+
+    .how>.sectionTextContainer h4 {
+        font-size: 3.5vh;
+        align-self: flex-end;
+    }
+
+    .how>.sectionTextContainer p {
+        font-size: 2.5vh;
+        align-self: flex-end;
     }
 
     /* Gallery */
@@ -551,24 +571,6 @@ video {
     #nav-toggle:checked~.nav-reg,
     #nav-toggle:checked~.nav-products {
         margin: 11vh 0 0 0;
-    }
-
-}
-
-
-/* Media query: vertical views on phones (667px and up).*/
-@media screen and (min-width: 667px) {
-
-    /* Hero image */
-    #heroImgSection {
-        height: 100lvh;
-        width: 100lvh;
-    }
-
-    #mainContainer {
-        margin: 18vh 0;
-        display: flex;
-        flex-direction: row;
     }
 
 }
@@ -604,9 +606,13 @@ video {
 
     /* Hero Image */
     #heroImgSection {
-        height: 100vw;
-        width: 100vw;
+        height: 100vh;
+        width: 100vh;
     }
+
+    /* Home Page */
+    /* Main */
+
 
     /* Gallery */
 
