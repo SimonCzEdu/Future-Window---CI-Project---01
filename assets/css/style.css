@@ -387,6 +387,43 @@ main {
 
 /* Form styling */
 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+}
+
+.formDiv {
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5vh;
+    font-size: 2vh;
+}
+
+.formDiv label, .formDiv input, .formDiv textarea {
+    width: 90%;
+    font-size: 5.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formDiv label {
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    margin-top: 6vw;
+}
+
+.formDiv textarea {
+    width: 100%;
+    height: 27vw;
+    border-radius: 5px;
+}
+
+#map {
+    width: 100vw;
+}
+
 /* Footer  general styling */
 /* Footer visibility button styling */
 #social-button {
@@ -514,7 +551,7 @@ video {
         margin: 11vh 0 4vh 0;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .who,
