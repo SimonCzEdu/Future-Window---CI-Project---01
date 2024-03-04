@@ -54,9 +54,57 @@
 
     <!-- Main -->
     <main>
-        
+
         <section id="heroImgSection">
             <div id="heroImgContainer">
+            </div>
+        </section>
+
+        <section id="request">
+            <div id="formDivTop">
+                <form id="form" action="submission-note.html" method="post">
+                    <div id="formLeft">
+                        <label for="firstName">First name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Your first name" value=""
+                            required>
+                        <br>
+                        <label for="lastName">Last name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Your last name" value="" required>
+                        <br>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="089-XX-XXX"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" required>
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Your E-mail address" value="" required>
+                    </div>
+                    <br>
+                    <div id="formRight">
+                        <label for="files">Submit windows schedule or architect drawings:</label>
+                        <input type="file" name="files" id="files"
+                            accept="image/*,.doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf"
+                            multiple>
+                        <br>
+                        <label for="note">What can we do for you today?</label>
+                        <input type="textarea" id="note" name="note"
+                            placeholder="Would you like a quote, or would you like us to contact you? Or is there something else we can do for you? Let us know!">
+                    </div>
+                </form>
+                <input type="submit" form="form">
+                <div id="formDivRight"></div>
+        </section>
+
+        <section id="contactInfo">
+            <div id="email-phone">
+                <p>Email: contact@futurewindows.com</p>
+                <p>Phone Number: 089 111 1111</p>
+            </div>
+            <div id="address">
+                <p>10 Building Name</p>
+                <p>Real Street</p>
+                <p>T99 VR99</p>
+                <p>Cork</p>
+                <p>Co. Cork</p>
             </div>
         </section>
 
