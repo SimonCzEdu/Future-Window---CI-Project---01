@@ -281,8 +281,8 @@ main {
     align-items: baseline;
     position: relative;
     top: 0;
-    height: 100vw;
-    width: 100vw;
+    height: 100vh;
+    width: 100vh;
     z-index: -1;
     background: url("../image/Hero/Open_your_window_to_the_future_GENERATED-WITH-AI.jpg") no-repeat bottom center/cover;
 }
@@ -496,12 +496,7 @@ video {
         font-size: 9.2vh;
     }
 
-    /* Hero Image */
-    #heroImgSection {
-        height: 51vw;
-        width: 51vw;
-    }
-
+    /* Main */
     #mainContainer {
         margin: 18vh 0 0;
         display: flex;
@@ -575,6 +570,7 @@ video {
 
 }
 
+
 /* Media query: tablet and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -604,14 +600,52 @@ video {
         flex-basis: 0;
     }
 
-    /* Hero Image */
-    #heroImgSection {
-        height: 100vh;
-        width: 100vh;
+    /* Home Page */
+
+    /* Main */
+    #mainContainer {
+        margin: 18vh 0 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 
-    /* Home Page */
-    /* Main */
+    .who,
+    .what,
+    .how {
+        height: 30vh;
+        background-position: center;
+    }
+
+    .who>.sectionTextContainer h4 {
+        font-size: 2.5vh;
+        align-self: flex-end;
+    }
+
+    .who>.sectionTextContainer p {
+        font-size: 1.5vh;
+        align-self: flex-end;
+    }
+
+    .what>.sectionTextContainer h4 {
+        font-size: 2.5vh;
+        align-self: flex-start;
+    }
+
+    .what>.sectionTextContainer p {
+        font-size: 1.5vh;
+        align-self: flex-start;
+    }
+
+    .how>.sectionTextContainer h4 {
+        font-size: 3.5vh;
+        align-self: flex-end;
+    }
+
+    .how>.sectionTextContainer p {
+        font-size: 2.5vh;
+        align-self: flex-end;
+    }
 
 
     /* Gallery */
