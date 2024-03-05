@@ -435,25 +435,6 @@ form {
     margin-bottom: 10vw;
 }
 
-/* Map iframe styling */
-
-
-#gMap {
-    width: 100vw;
-    height: 30vh;
-    margin-bottom: 5vw;
-}
-
-#burryGMap {
-    width: 100vw;
-    height: 30vh;
-}
-
-#burryGMap iframe {
-    width: 100%;
-    height: 100%;
-}
-
 /* Contact info Styling */
 
 #contactInfo {
@@ -470,26 +451,36 @@ form {
 
 #contactInfo h2,
 #contactInfo label {
-    font-size: 7vw;
+    font-size: 7vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
-    margin: 3vw;
+    margin: 3vh;
 }
 
 #contactInfo p {
     width: 80%;
-    font-size: 4vw;
+    font-size: 4vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
-    margin: 6vw 4vw;
+    margin: 6vh 4vh;
 }
-
 
 /* Map iframe styling */
-#map {
-    width: 7vw;
+#gMap {
+    width: 100vw;
+    height: 35vh;
+    margin-bottom: 9vh;
 }
 
+#burryGMap {
+    width: 100%;
+    height: 100%;
+}
+
+#burryGMap iframe {
+    width: 100%;
+    height: 100%;
+}
 
 /* Footer  general styling */
 /* Footer visibility button styling */
@@ -637,7 +628,7 @@ video {
     }
 
     /* Main */
-
+    /* Homepage */
     #mainContainer {
         margin: 11vh 0 4vh 0;
         display: flex;
@@ -685,6 +676,69 @@ video {
         align-self: flex-start;
     }
 
+    /* Form */
+    /* Main form styling */
+    form {
+        margin: 2vw;
+    }
+
+    .formDiv {
+        padding: 2vh;
+        gap: 0.5vh;
+        font-size: 2vh;
+    }
+
+    .formDiv label,
+    .formDiv input,
+    .formDiv textarea {
+        font-size: 5.5vw;
+    }
+
+    .formDiv label {
+        margin-top: 6vw;
+    }
+
+    .formDiv textarea {
+        height: 27vw;
+    }
+
+    /* Submit styling */
+    #subButton {
+        margin-bottom: 10vw;
+    }
+
+    /* Contact info Styling */
+    #contactInfo {
+        width: 100vw;
+    }
+
+    #contactInfo h2,
+    #contactInfo label {
+        font-size: 7vw;
+        margin: 3vw;
+    }
+
+    #contactInfo p {
+        font-size: 4vw;
+        margin: 6vw 4vw;
+    }
+
+    /* Map iFrame */
+    #gMap {
+        width: 100vw;
+        height: 30vh;
+        margin-bottom: 5vw;
+    }
+
+    #burryGMap {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #burryGMap iframe {
+        width: 100%;
+        height: 100%;
+    }
 
 }
 
@@ -732,6 +786,53 @@ video {
         margin: 0;
     }
 
+    /* From */
+    /* Main form styling */
+    form {
+        margin: 2vw;
+    }
+
+    .formDiv {
+        padding: 2vh;
+        gap: 0.5vh;
+        font-size: 2vh;
+    }
+
+    .formDiv label,
+    .formDiv input,
+    .formDiv textarea {
+        font-size: 5.5vw;
+    }
+
+    .formDiv label {
+        margin-top: 6vw;
+    }
+
+    .formDiv textarea {
+        height: 27vw;
+        border-radius: 5px;
+    }
+
+    #subButton {
+        margin-bottom: 10vw;
+    }
+
+    /* Contact info Styling */
+
+    #contactInfo {
+        width: 100vw;
+    }
+
+    #contactInfo h2,
+    #contactInfo label {
+        font-size: 5vw;
+        margin: 3vw;
+    }
+
+    #contactInfo p {
+        font-size: 3vw;
+        margin: 6vw 4vw;
+    }
 }
 
 /* Media query: for landscape view on phones */
@@ -806,6 +907,17 @@ video {
     .what>.sectionTextContainer p,
     .how>.sectionTextContainer p {
         font-size: 3.6vh;
+    }
+
+}
+
+/* Media query: for tablets and up (width: 1024px and up) */
+@media screen and (min-width: 1024px) {
+
+    #gMap {
+        width: 100vw;
+        margin-bottom: 4vh;
+        height: 35vh;
     }
 
 }
