@@ -314,13 +314,37 @@ main {
     width: 50%;
 }
 
-/* Gallery  styling*/
+/* Gallery  styling */
+
+#mainOverwrite {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#openLogo {
+    margin: 8vh 0 0 0;
+    width: 100%;
+}
+
+#openLogo h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 7.5vh;
+    text-align: center;
+    background-color: #24272f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8vh;
+}
+
 #keepOutCold {
     background: url(../image/Cold/Keep-out-the-cold.jpeg) no-repeat center center/cover;
 }
 
 #letInLight {
-    background: url(../image/Let-in-the-light-AI\ generated.jpg) no-repeat center center/cover;
+    background: url(../image/Light/Let-in-the-light-AI\ generated.jpg) no-repeat center center/cover;
 }
 
 #letInLight,
@@ -328,8 +352,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 95vw;
-    width: 95vw;
+    height: 80vh;
+    width: 80vh;
     border-radius: 2vh;
 }
 
@@ -350,7 +374,7 @@ main {
 
 #letInLight>h4,
 #keepOutCold>h4 {
-    font-size: 2.5vh;
+    font-size: 4.5vh;
 }
 
 #letInLight>p,
@@ -362,22 +386,17 @@ main {
 #lightAnchor,
 #coldAnchor {
     padding: 20vh 0 0 0;
-    justify-content: center;
-    align-content: center;
 }
 
-#lightAnchor p,
-#coldAnchor p {
-    color: #111e56de;
-    background-color: #ffffffcc;
-    border-radius: 1vh;
-    padding: 0.5vh 1vh;
-}
 
 .photos {
     line-height: 20px;
     background-color: #236f73d6;
     border-radius: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    margin: 8vh 0 0 0;
+
 }
 
 .photos img {
@@ -387,12 +406,12 @@ main {
 }
 
 /* Form styling */
-
 /* Main form styling */
 form {
     display: flex;
     flex-wrap: wrap;
     margin: 2vw;
+    gap: 4vh;
 }
 
 .formDiv {
@@ -436,7 +455,6 @@ form {
 }
 
 /* Contact info Styling */
-
 #contactInfo {
     display: flex;
     width: 100vw;
@@ -445,13 +463,22 @@ form {
     border-radius: 5px;
 }
 
+#emailPhoneAddress {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#emailPhoneAddress div {
+    flex-grow: 1;
+}
+
 #contactInfo h2 {
     align-self: center;
 }
 
 #contactInfo h2,
 #contactInfo label {
-    font-size: 7vh;
+    font-size: 5.5vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
     margin: 3vh;
@@ -462,7 +489,7 @@ form {
     font-size: 4vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
-    margin: 6vh 4vh;
+    margin: 0vh 0 1vh 5vh;
 }
 
 /* Map iframe styling */
@@ -676,41 +703,48 @@ video {
         align-self: flex-start;
     }
 
-    /* Form */
-    /* Main form styling */
-    form {
-        margin: 2vw;
+    /* Gallery */
+    /* Logos */
+    #openLogo {
+        margin: 8vw 0 0 0;
     }
 
-    .formDiv {
-        padding: 2vh;
-        gap: 0.5vh;
-        font-size: 2vh;
+    #openLogo h2 {
+        font-size: 7.5vw;
+        margin-bottom: 8vw;
     }
 
-    .formDiv label,
-    .formDiv input,
-    .formDiv textarea {
-        font-size: 5.5vw;
+    #letInLight,
+    #keepOutCold {
+        height: 95vw;
+        width: 95vw;
+        border-radius: 2vw;
     }
 
-    .formDiv label {
-        margin-top: 6vw;
+    #letInLight>h4,
+    #letInLight>p,
+    #keepOutCold>h4,
+    #keepOutCold>p {
+        font-size: 2vw;
+        padding: 3vw;
     }
 
-    .formDiv textarea {
-        height: 27vw;
+    #letInLight>h4,
+    #keepOutCold>h4 {
+        font-size: 4.5vw;
     }
 
-    /* Submit styling */
-    #subButton {
-        margin-bottom: 10vw;
+    #lightAnchor,
+    #coldAnchor {
+        padding: 20vw 0 0 0;
     }
 
+    .photos {
+        column-count: 1;
+    }
+
+    /* Form  */
     /* Contact info Styling */
-    #contactInfo {
-        width: 100vw;
-    }
 
     #contactInfo h2,
     #contactInfo label {
@@ -787,36 +821,6 @@ video {
     }
 
     /* From */
-    /* Main form styling */
-    form {
-        margin: 2vw;
-    }
-
-    .formDiv {
-        padding: 2vh;
-        gap: 0.5vh;
-        font-size: 2vh;
-    }
-
-    .formDiv label,
-    .formDiv input,
-    .formDiv textarea {
-        font-size: 5.5vw;
-    }
-
-    .formDiv label {
-        margin-top: 6vw;
-    }
-
-    .formDiv textarea {
-        height: 27vw;
-        border-radius: 5px;
-    }
-
-    #subButton {
-        margin-bottom: 10vw;
-    }
-
     /* Contact info Styling */
 
     #contactInfo {
@@ -832,6 +836,12 @@ video {
     #contactInfo p {
         font-size: 3vw;
         margin: 6vw 4vw;
+    }
+
+    /* Gallery */
+    .photos {
+        column-count: 3;
+    
     }
 }
 
@@ -918,6 +928,35 @@ video {
         width: 100vw;
         margin-bottom: 4vh;
         height: 35vh;
+    }
+
+    /* From */
+    /* Contact info Styling */
+
+    #contactInfo {
+        width: 100vw;
+    }
+
+    #contactInfo h2,
+    #contactInfo label {
+        font-size: 3vh;
+        margin: 0 0 0 2vw;
+    }
+
+    #contactInfo p {
+        font-size: 1.7vh;
+        margin: 0px 0 0 2vw;
+    }
+
+    /* Gallery */
+    #lightAnchor,
+    #coldAnchor {
+        padding: 12vh 0 0 0;
+    }
+
+    .photos {
+        column-count: 5;
+    
     }
 
 }
