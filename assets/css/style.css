@@ -62,7 +62,8 @@ h1 {
 }
 
 /* Nav bar styling */
-.nav-reg, .nav-gallery {
+.nav-reg,
+.nav-gallery {
     display: none;
     position: fixed;
     top: 0;
@@ -388,7 +389,7 @@ main {
 /* Form styling */
 
 /* Main form styling */
-form{
+form {
     display: flex;
     flex-wrap: wrap;
     margin: 2vw;
@@ -403,7 +404,9 @@ form{
     font-size: 2vh;
 }
 
-.formDiv label, .formDiv input, .formDiv textarea {
+.formDiv label,
+.formDiv input,
+.formDiv textarea {
     width: 90%;
     font-size: 5.5vw;
     font-family: 'Roboto', sans-serif;
@@ -433,9 +436,13 @@ form{
 }
 
 /* Map iframe styling */
-#gMap {
-    width: 50vw;
+
+iframe {
+    aspect-ratio: 4 / 3;
+    height: auto;
+    width: 100%;
 }
+
 
 /* Contact info Styling */
 
@@ -451,7 +458,8 @@ form{
     align-self: center;
 }
 
-#contactInfo h2, #contactInfo label  {
+#contactInfo h2,
+#contactInfo label {
     font-size: 7vw;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
@@ -563,18 +571,18 @@ video {
 .active {
     border-color: #ffffff;
     border-width: 2px;
-    color: #ffffff;    
+    color: #ffffff;
 }
 
-.navLink:hover{
+.navLink:hover {
     border-color: #ffffff;
     border-width: 2px;
 }
 
 .activeSub:active {
-    color: #ffffff; 
+    color: #ffffff;
     border-color: #ffffff;
-    border-width: 1px;   
+    border-width: 1px;
 }
 
 .i-chevron:hover,
@@ -601,7 +609,8 @@ video {
         font-size: 5.5vw;
     }
 
-    .nav-reg, .nav-gallery {
+    .nav-reg,
+    .nav-gallery {
         margin-top: 11vw;
     }
 
@@ -686,7 +695,8 @@ video {
         font-size: 3.5vw;
     }
 
-    .nav-reg, .nav-gallery {
+    .nav-reg,
+    .nav-gallery {
         margin-top: 7vh;
     }
 
@@ -731,7 +741,8 @@ video {
         font-size: 5.5vh;
     }
 
-    .nav-reg, .nav-gallery {
+    .nav-reg,
+    .nav-gallery {
         margin-top: 11vh;
     }
 
@@ -771,7 +782,7 @@ video {
         align-self: center;
     }
 
-    .how > .sectionTextContainer h4 {
+    .how>.sectionTextContainer h4 {
         align-self: flex-end;
     }
 
