@@ -433,8 +433,8 @@ form{
 }
 
 /* Map iframe styling */
-#map {
-    width: 100vw;
+#gMap {
+    width: 50vw;
 }
 
 /* Contact info Styling */
@@ -469,7 +469,7 @@ form{
 
 /* Map iframe styling */
 #map {
-    width: 100vw;
+    width: 7vw;
 }
 
 
