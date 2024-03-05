@@ -437,12 +437,22 @@ form {
 
 /* Map iframe styling */
 
-iframe {
-    aspect-ratio: 4 / 3;
-    height: auto;
-    width: 100%;
+
+#gMap {
+    width: 100vw;
+    height: 30vh;
+    margin-bottom: 5vw;
 }
 
+#burryGMap {
+    width: 100vw;
+    height: 30vh;
+}
+
+#burryGMap iframe {
+    width: 100%;
+    height: 100%;
+}
 
 /* Contact info Styling */
 
