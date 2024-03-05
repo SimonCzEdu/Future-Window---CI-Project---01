@@ -247,15 +247,15 @@ main {
 
 /* Background images for "who what how" */
 .who {
-    background-image: url("../image/Who.jpeg");
+    background-image: url("../image/HomePage/who3.jpeg");
 }
 
 .what {
-    background-image: url("../image/What.jpeg");
+    background-image: url("../image/HomePage/What.jpeg");
 }
 
 .how {
-    background-image: url("../image/How.jpeg");
+    background-image: url("../image/HomePage/How.jpeg");
 }
 
 .who,
@@ -465,6 +465,16 @@ form {
     margin-bottom: 10vw;
 }
 
+#thankYou {
+    text-align: center;
+    background-color: #000000cf;
+    margin: 40vh 0 0 0;
+    font-size: 5vh;
+    padding: 2vh;
+    border-radius: 5px;
+    width: 95%;
+}
+
 /* Contact info Styling */
 #contactInfo {
     display: flex;
@@ -653,7 +663,7 @@ video {
     #menu-2 {
         flex-direction: column;
     }
-    
+
     #first {
         order: 2;
     }
@@ -770,7 +780,6 @@ video {
 
     /* Form  */
     /* Contact info Styling */
-
     #contactInfo h2,
     #contactInfo label {
         font-size: 7vw;
@@ -797,6 +806,14 @@ video {
     #burryGMap iframe {
         width: 100%;
         height: 100%;
+    }
+    /* Submission-note */
+    #thankYou {
+        margin: 40vw 0 0 0;
+        font-size: 5vw;
+        padding: 2vw;
+        border-radius: 5px;
+        width: 95%;
     }
 
 }
