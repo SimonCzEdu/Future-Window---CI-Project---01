@@ -70,7 +70,7 @@ The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.c
 
 ## Site Structure
 
-Future Windows website has 3 main pages plus a "Thank you" page for form submission. The [Home](index.html) is the default loading page, the [Gallery](gallery.html), and [Contact Us](form.html) pages are all accessible primarily from the navigation menu. The [Submission Note](submission-note.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible otherwise (position:fixed).
+Future Windows website has 3 main pages plus a "Thank you" page for form submission. The [Home](index.html) is the default loading page, the [Gallery](gallery.html), and [Contact Us](form.html) pages are all accessible primarily from the navigation menu. The [Submission note](submission.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible otherwise (position:fixed).
  
 [Back to top](<#contents>)
 
