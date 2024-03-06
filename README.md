@@ -70,7 +70,7 @@ The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.c
 
 ## Site Structure
 
-Future Windows website has 3 main pages plus a "Thank you" page for form submission. The [Home](index.html) is the default loading page, the [Gallery](gallery.html), and [Contact Us](form.html) pages are all accessible primarily from the navigation menu. The [Submission note](submission.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible otherwise (position:fixed).
+Future Windows website has 3 main pages plus a "Thank you" page for form submission. The [Home](index.html) is the default loading page, the [Gallery](gallery.html), and [Contact Us](form.html) pages are all accessible primarily from the navigation menu. The [Submission note](submission.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible (position:fixed).
  
 [Back to top](<#contents>)
 
@@ -78,11 +78,11 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
 
  * ### General design philosophy
     There are a few major intentions in the design of Future Windows:
-    * to seem like it is modern or even futuristic and that the products FW offers are as well
-    * windows are transparent and so will be the majority of elements on this site
-    * compactness of the site is to underline the products it features
-    * initial contact with the page needs a 'wow' factor, to draw the attention of the user and give them a sense of dealing with a professional company, with resources to back their claims
-    * design started from an idea of a background video providing that 'wow' factor with a 'bang'
+    * To appear modern, futuristic even and the products that Future Windows offers are also modern and innovative.
+    * Windows are transparent and so will be the majority of elements on this site.
+    * Compact form of the site is to underline the nature of the products it features. Their design is also minimalistic.
+    * Initial contact with the page needs a 'wow' factor, to draw the attention of the user and give them a sense of dealing with a professional company, with resources to back their claims.
+    * Design started from an idea of a background video providing that 'wow' factor with a 'bang'.
 
  * ### Typography
       Font family 'Anta' is set for the body, so it will always be the default font in the absence of any other style. For the main elements of the [Home](index.html) and [Contact Us](form.html) 'Roboto' was chosen instead. 'Roboto' is featured in  the 'Who, What, How' sections of the [Home](index.html) and in the entirety of the form in [Contact Us](form.html)
