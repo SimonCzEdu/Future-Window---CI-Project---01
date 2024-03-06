@@ -657,6 +657,7 @@ video {
 /* Explore */
 #explore {
     position: fixed;
+    flex-direction: column;
     width: 90vw;   
     margin-top: 42.4vh;
     padding: 0 2vh;
@@ -664,7 +665,6 @@ video {
 
 #explore, #explore * {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: 8vh;
