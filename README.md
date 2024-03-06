@@ -107,7 +107,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
 ## Existing Features  
   * ### navBar
 
-    * Sited at the top of all the pages in the site, it is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
+    * Sited at the top of all the pages on the site, it is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
     * It is also possible to hide it to gain more real estate.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
@@ -128,7 +128,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
       * The [Gallery](gallery.html) is featured on its dedicated page.
       * It is divided into two sections which reflect two aspects of the products of Future Windows: "Letting the light in and keeping the cold out".
       * The [Gallery](gallery.html) features extra links visible only on that page for easier navigation through its extensive gallery of photos.
-      * A responsively styled grid of images of past 'products' gives the user an idea of what Future Windows can offer. 
+      * A responsively styled grid of images of products gives the user a view of what Future Windows can achieve. It is intended more of an appetizer before the customer dives into technologies [Future Features](<#Future Features). 
 
 ![Gallery image](assets/
 [Back to top](<#contents>)
