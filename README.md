@@ -14,7 +14,7 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
     *  [Typography](<#typography>)
-    *  [Colour Scheme](<#colour-scheme>)
+    *  [Color Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Nav bar](<#navBar>)
@@ -42,7 +42,7 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
     * [**Media**](<#media>)
-*  [**Acknowledgements**](<#acknowledgements>)
+*  [**Acknowledgments**](<#acknowledgments>)
 
 
 # User Experience (UX)
@@ -80,7 +80,7 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     There are a few major intentions in the design of Future Windows:
     * To appear modern, futuristic even and the products that Future Windows offers are also modern and innovative.
     * Windows are transparent and so will be the majority of elements on this site.
-    * Compact form of the site is to underline the nature of the products it features. Their design is also minimalistic.
+    * The compact form of the site is to underline the nature of the products it features. Their design is also minimalistic.
     * Initial contact with the page needs a 'wow' factor, to draw the attention of the user and give them a sense of dealing with a professional company, with resources to back their claims.
     * Design started from an idea of a background video providing that 'wow' factor with a 'bang'.
 
@@ -96,7 +96,7 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     As mentioned above, a big part of the design is also the use of transparency so items overlap and move behind each other. This affects how some colors are displayed, but through testing, satisfying results were reached, and with a negligible hit to readability.
 
 
-![Color Scheme](assets/
+![Color Scheme image](assets/image/Readme-images/Color-scheme.jpg)
 
 
 [Back to top](<#contents>)
@@ -111,7 +111,8 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * It is also possible to hide it to gain more real estate.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
-![Navigation bar image](assets/
+![Nav Bar On image](assets/image/Readme-images/navBar.jpg)
+![Nav Bar Off The Gallery example image](assets/image/Readme-images/galleryPhotos-hidden-nav.jpg)
 [Back to top](<#contents>)
 
 * ### Footer
@@ -120,7 +121,8 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The social media will encourage users to reach out, and promote (by sharing) the Future Windows brand.
     * Just like the navBar footer is in a fixed position and can be hidden with a press of a button.
 
-![Footer](assets/
+![Footer On image](assets/image/Readme-images/footerOn.jpg)
+![Footer Off image](assets/image/Readme-images/footerOff.jpg)
 [Back to top](<#contents>)
 
   * ### Gallery
@@ -128,17 +130,20 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
       * The [Gallery](gallery.html) is featured on its dedicated page.
       * It is divided into two sections which reflect two aspects of the products of Future Windows: "Letting the light in and keeping the cold out".
       * The [Gallery](gallery.html) features extra links visible only on that page for easier navigation through its extensive gallery of photos.
-      * A responsively styled grid of images of products gives the user a view of what Future Windows can achieve. It is intended more of an appetizer before the customer dives into technologies [Future Features](<#Future Features). 
+      * A responsively styled grid of images of products gives the user a view of what Future Windows can achieve. It is intended more of an appetizer before the customer dives into technologies [Future Features](<#future-features>). 
 
-![Gallery image](assets/
+![Gallery image](assets/image/Readme-images/galleryLight.jpg)
 [Back to top](<#contents>)
 
   * ### Contact Us
     * This section is an invitation to contact the company for a quotation or to provide feedback.
-    * The page also features contact details for more traditional forms (email, phone, address)
+    * Customers can also attach (optional) files needed to produce a quote.
+    * The page features contact details for more traditional forms (email, phone, address)
     * At the bottom of the page, Google Maps is featured through iframe (except Galaxy Fold on portrait view - more info in bug fixing section). It is not linked to any address as Future Windows is a fictional company. However, that can be easily remedied as needed with the Google Maps 'embed' feature. 
 
-![Contact Us image](assets/
+![Contact Us image](assets/image/Readme-images/contactForm.jpg)
+![Contact Us image](assets/image/Readme-images/contactInfo+map.jpg)
+
 [Back to top](<#contents>)
 
 * ### Form Confirmation
@@ -146,7 +151,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * This will let customers know that their form was submitted and Future Windows will be in contact.
     * This page is a copy of the contacts page with the hero image and the contact details. It does not need form anymore (it could confuse the customer), nor the map. The page has [Contact Us](form.html) active, but that is only for appearances. 
 
-![Form confirmation image](assets/
+![Form confirmation image](assets/image/Readme-images/thankYouNote.jpg)
 [Back to top](<#contents>)
 
 ## Future Features 
@@ -184,7 +189,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   3. Under **Source**, select the branch to **master**, then click **Save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-![GitHub pages deployed image](assets/
+![GitHub pages deployed image](assets/image/Readme-images/deploy.jpg)
 
   The live link to the Github repository can be found here - https://github.com/SimonCzEdu/Future-Window---CI-Project---01
 
@@ -192,14 +197,14 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 1. Log in to **GitHub** and locate the [repository](https://github.com/SimonCzEdu/Future-Window---CI-Project---01).
 2. On the right-hand side of the page in line with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](assets/
+![GitHub forking process image](assets/image/Readme-images/fork.jpg)
 
 ### **To create a local clone of this project**
 Below is the method for cloning a project from GitHub:
 
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
-![Cloning image](assets/
+![Cloning image](assets/image/Readme-images/clone.jpg)
 3. In your IDE of choice, open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type **git clone**, and then paste the URL copied from GitHub.
@@ -252,13 +257,13 @@ Below is the method for cloning a project from GitHub:
 
 [Back to top](<#contents>)
 
-# Acknowledgements
+# Acknowledgments
 
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. 
 
 Taking this opportunity I would like to thank Osin and Jason tutors for helping with getting me through some difficult subjects.
  * Jason helped me understand and apply flexbox properly to the background video
- * Osin helped me figure out positioning of images and background images.
+ * Osin helped me figure out the positioning of images and background images.
 
 Future Windows is a fictional company but it was an idea taking space in my mind and I finally took the first step in making it a reality. For that opportunity alone I will be forever grateful.
 
