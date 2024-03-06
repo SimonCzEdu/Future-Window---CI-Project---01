@@ -16,24 +16,18 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
     *  [Typography](<#typography>)
     *  [Color Scheme](<#color-scheme>)
 * [**Features**](<#features>)
-    * [**Home**](<#navigation-menu>)
+    * [**Home**](<#Home>)
+         * Who, What, How sections
          * [Nav bar](<#navBar>)
-         * [Gallery](<#gallery>)
-         * [About-us](<#about-us>)
-         * [Testimonials](<#testimonials>)
          * [Footer](<#footer>)
-    * [**Projects**](<#projects>)
-        * Dolls Cots
-        * Height Chart
-        * Walker
-    * [**Inspiration**](<#inspiration>)
-        * Elm
-        * Oak
-        * Elm
+         * Background explosion video
+    * [**Gallery**](<#gallery>)
+        * Light
+        * Cold
     * [**Contact Us**](<#contact-us>)
+       * Contact form
        * Contact details
-       * Location map
-       * Design Query form
+       * iframe map
     * [**Form Confirmation**](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -111,7 +105,14 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
 
 The Future Windows site is set up to be a bit provocative but easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and thought-provoking. Usage should be intuitive but also feel modern. For that purpose philosophy of "navigation bar is there when you need it and you can hide it when you don't" was applied.  
 
-## Existing Features  
+## Existing Features 
+
+  * ### Home
+    
+    * [Home page](index.html) is the first page to load
+    * It features 3 sections that answer questions: Who the Future Windows are What they do and How they do it.
+    * It features semi-transparent images, text and background to showcase background animation. A spark that illuminates the darkness in the explosion.
+
   * ### navBar
 
     * Sited at the top of all the pages on the site, it is fully responsive and contains links to all the pages of the site to enable ease of navigation in one convenient location.
