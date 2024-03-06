@@ -112,6 +112,8 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The logo is clickable with a link back to the home page for enhanced UX.
 
 ![Nav Bar On image](assets/image/Readme-images/navBar.jpg)
+
+
 ![Nav Bar Off The Gallery example image](assets/image/Readme-images/galleryPhotos-hidden-nav.jpg)
 [Back to top](<#contents>)
 
@@ -122,6 +124,8 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * Just like the navBar footer is in a fixed position and can be hidden with a press of a button.
 
 ![Footer On image](assets/image/Readme-images/footerOn.jpg)
+
+
 ![Footer Off image](assets/image/Readme-images/footerOff.jpg)
 [Back to top](<#contents>)
 
@@ -142,6 +146,8 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * At the bottom of the page, Google Maps is featured through iframe (except Galaxy Fold on portrait view - more info in bug fixing section). It is not linked to any address as Future Windows is a fictional company. However, that can be easily remedied as needed with the Google Maps 'embed' feature. 
 
 ![Contact Us image](assets/image/Readme-images/contactForm.jpg)
+
+
 ![Contact Us image](assets/image/Readme-images/contactInfo+map.jpg)
 
 [Back to top](<#contents>)
