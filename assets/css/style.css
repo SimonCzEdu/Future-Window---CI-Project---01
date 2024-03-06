@@ -663,6 +663,10 @@ video {
     padding: 0 2vh;
 }
 
+#explore a {
+    padding: 0 2vw;
+}
+
 #explore, #explore * {
     display: flex;
     align-items: center;
@@ -670,6 +674,91 @@ video {
     font-size: 8vh;
     /* color: #ffffff00; */
     text-decoration: none;
+}
+
+/* Animations declarations */
+/* Opening Logo */
+#open {
+    color: rgba(255, 255, 255, 0);
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#your {
+    color: rgba(255, 255, 255, 0);
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#window {
+    color: rgba(255, 255, 255, 0);
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#to {
+    color: rgba(255, 255, 255, 0);
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#the {
+    color: rgba(255, 255, 255, 0);
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+}
+
+#future {
+  color: rgba(255, 255, 255, 0);
+  animation-delay: 1; 
+  animation-name: fadeInOut;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+/* Explore */
+#exploreLink {
+    border-style: solid;
+    border-color: rgba(5, 251, 218, 0.0);
+    border-radius: 5px;
+    animation-delay: 1;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#your2 {
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#futureW, #futureW * {
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+#today {
+    animation-delay: 1s;
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;    
 }
 
 /* Media queries */
