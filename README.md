@@ -29,6 +29,7 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
        * [Contact details](<#contact-info-and-map>)
        * [iframe map](<#contact-info-and-map>)
     * [**Form Confirmation**](<#form-confirmation>)
+       * [Thank you note](<#submission-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -178,7 +179,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * This will let customers know that their form was submitted and Future Windows will be in contact.
     * This page is a copy of the contacts page with the hero image and the contact details. It does not need form anymore (it could confuse the customer), nor the map. The page has [Contact Us](form.html) active, but that is only for appearances. 
 
-* Submission confirmation
+* ### Submission confirmation
 
 ![Form confirmation image](assets/image/Readme-images/thankYouNote.jpg)
 
