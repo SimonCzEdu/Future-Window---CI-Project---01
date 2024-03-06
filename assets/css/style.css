@@ -639,21 +639,27 @@ video {
 
 /* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
 /* Opening Logo */
+#logo {
+    width: 90vw;
+    padding: 0 2vh;
+    margin-top: 42.4vh;
+}
+
 #logo, #logo * {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 10vh;
-    margin-top: 0;
-    flex-grow: 1;   
+    font-size: 8vh;
     /* color: #ffffff00; */
 }
 
 /* Explore */
 #explore {
-    position: fixed;    
-    margin-top: 46vh;
+    position: fixed;
+    width: 90vw;   
+    margin-top: 42.4vh;
+    padding: 0 2vh;
 }
 
 #explore, #explore * {
@@ -661,8 +667,7 @@ video {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 10vh;
-    flex-grow: 1;
+    font-size: 8vh;
     /* color: #ffffff00; */
     text-decoration: none;
 }
@@ -852,16 +857,18 @@ video {
 #logo, #logo * {
     flex-direction: column;
     flex-grow: 0;
-    font-size: 10vw;
+    font-size: 9vw;
 }
 
 #logo {
-    margin-top: 12vh;
+    margin-top: 24vh;
+    width: 100vw;
 }
 
 /* Explore */
 #explore {  
-    margin-top: 46.4vh;
+    margin-top: 47.4vh;
+    width: 100vw;
 }
 
 #explore a {
@@ -871,7 +878,7 @@ video {
 #explore, #explore * {
     flex-direction: column;
     flex-grow: 0;
-    font-size: 10vw;
+    font-size: 9vw;
 }
 
 }
