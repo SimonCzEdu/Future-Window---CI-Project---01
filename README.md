@@ -62,8 +62,10 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
 
 The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.com). There are frames for a full-width display and a small mobile device. The final site varies from the wireframes due to developments that occurred during the development process. 
 
+* Desktop WireFrame
 ![Desktop wireframe image](assets/
 
+* Mobile WireFrame
 ![Mobile wireframe image](assets/ 
 
 [Back to top](<#contents>)
@@ -95,11 +97,10 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     
     As mentioned above, a big part of the design is also the use of transparency so items overlap and move behind each other. This affects how some colors are displayed, but through testing, satisfying results were reached, and with a negligible hit to readability.
 
-
+* Color scheme
 ![Color Scheme image](assets/image/Readme-images/Color-scheme.jpg)
-
-
 [Back to top](<#contents>)
+
 # Features
 
 The Future Windows site is set up to be a bit provocative but easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and thought-provoking. Usage should be intuitive but also feel modern. For that purpose philosophy of "navigation bar is there when you need it and you can hide it when you don't" was applied.  
@@ -111,9 +112,10 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * It is also possible to hide it to gain more real estate.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
+* Nav bar
 ![Nav Bar On image](assets/image/Readme-images/navBar.jpg)
 
-
+* Nav bar off on the Gallery page
 ![Nav Bar Off The Gallery example image](assets/image/Readme-images/galleryPhotos-hidden-nav.jpg)
 [Back to top](<#contents>)
 
@@ -123,9 +125,10 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The social media will encourage users to reach out, and promote (by sharing) the Future Windows brand.
     * Just like the navBar footer is in a fixed position and can be hidden with a press of a button.
 
+* Footer ON
 ![Footer On image](assets/image/Readme-images/footerOn.jpg)
 
-
+*Footer OFF
 ![Footer Off image](assets/image/Readme-images/footerOff.jpg)
 [Back to top](<#contents>)
 
@@ -136,6 +139,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
       * The [Gallery](gallery.html) features extra links visible only on that page for easier navigation through its extensive gallery of photos.
       * A responsively styled grid of images of products gives the user a view of what Future Windows can achieve. It is intended more of an appetizer before the customer dives into technologies [Future Features](<#future-features>). 
 
+* Gallery
 ![Gallery image](assets/image/Readme-images/galleryLight.jpg)
 [Back to top](<#contents>)
 
@@ -145,9 +149,10 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The page features contact details for more traditional forms (email, phone, address)
     * At the bottom of the page, Google Maps is featured through iframe (except Galaxy Fold on portrait view - more info in bug fixing section). It is not linked to any address as Future Windows is a fictional company. However, that can be easily remedied as needed with the Google Maps 'embed' feature. 
 
+* Contact Form
 ![Contact Us image](assets/image/Readme-images/contactForm.jpg)
 
-
+* Contact Info and map
 ![Contact Us image](assets/image/Readme-images/contactInfo+map.jpg)
 
 [Back to top](<#contents>)
@@ -157,6 +162,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * This will let customers know that their form was submitted and Future Windows will be in contact.
     * This page is a copy of the contacts page with the hero image and the contact details. It does not need form anymore (it could confuse the customer), nor the map. The page has [Contact Us](form.html) active, but that is only for appearances. 
 
+* Submission confirmation
 ![Form confirmation image](assets/image/Readme-images/thankYouNote.jpg)
 [Back to top](<#contents>)
 
