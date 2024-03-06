@@ -98,7 +98,9 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     As mentioned above, a big part of the design is also the use of transparency so items overlap and move behind each other. This affects how some colors are displayed, but through testing, satisfying results were reached, and with a negligible hit to readability.
 
 * Color scheme
+
 ![Color Scheme image](assets/image/Readme-images/Color-scheme.jpg)
+
 [Back to top](<#contents>)
 
 # Features
@@ -112,7 +114,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * It is also possible to hide it to gain more real estate.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
-* Nav bar
+* Nav bar on
 ![Nav Bar On image](assets/image/Readme-images/navBar.jpg)
 
 * Nav bar off on the Gallery page
