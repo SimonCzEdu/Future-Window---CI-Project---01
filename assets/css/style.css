@@ -423,6 +423,7 @@ form {
     flex-wrap: wrap;
     margin: 2vw;
     gap: 4vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .formDiv {
