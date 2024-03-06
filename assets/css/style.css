@@ -644,7 +644,7 @@ video {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 8vh;
+    font-size: 10vh;
     margin-top: 0;
     flex-grow: 1;   
     /* color: #ffffff00; */
@@ -652,7 +652,8 @@ video {
 
 /* Explore */
 #explore {
-    position: fixed;
+    position: fixed;    
+    margin-top: 43vh;
 }
 
 #explore a {
@@ -664,8 +665,7 @@ video {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 10vh;    
-    margin-top: 0;
+    font-size: 10vh;
     flex-grow: 1;
     /* color: #ffffff00; */
     text-decoration: none;
