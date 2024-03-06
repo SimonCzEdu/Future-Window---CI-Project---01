@@ -14,7 +14,7 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
     *  [Typography](<#typography>)
-    *  [Color Scheme](<#colour-scheme>)
+    *  [Color Scheme](<#color-scheme>)
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Nav bar](<#navBar>)
@@ -93,6 +93,8 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     
     *  'Anta' was chosen for the header (title and nav elements) to give the user an initial futuristic feel. The aim is to invoke the feeling that Future Windows is from the future and can take users there. It fits more general design philosophy mentioned above.
     * 'Roboto' is used for pretty much the same reason, but it feels more readable, especially when there is more text, or when a font is smaller.
+
+[Back to top](<#contents>)
 
   * ### Color Scheme
     The color scheme was dictated in no small part by the background video choice. The whole design process started with choosing that video and so, the color scheme is kept in 'blues'. The background is in videos dark blue. It invokes the idea of deep space and thus futurism. The header and footer fonts and border colors were matched using [Compliance Contrast Checker](https://adasitecompliance.com/ada-color-contrast-checker/), but also care was taken to choose a color that would invoke the feel of neon light for future themes. White for the :active selector was confirmed with [Compliance Contrast Checker](https://adasitecompliance.com/ada-color-contrast-checker/), and felt good on tests with users. 
