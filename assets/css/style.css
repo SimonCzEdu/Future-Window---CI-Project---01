@@ -639,7 +639,7 @@ video {
 
 /* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
 /* Opening Logo */
-#fadeInOut, #fadeInOut * {
+#logo, #logo * {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -653,11 +653,7 @@ video {
 /* Explore */
 #explore {
     position: fixed;    
-    margin-top: 43vh;
-}
-
-#explore a {
-    padding: 0 2vw;
+    margin-top: 46vh;
 }
 
 #explore, #explore * {
@@ -849,6 +845,34 @@ video {
         border-radius: 5px;
         width: 95%;
     }
+
+
+/* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
+/* Opening Logo */
+#logo, #logo * {
+    flex-direction: column;
+    flex-grow: 0;
+    font-size: 10vw;
+}
+
+#logo {
+    margin-top: 12vh;
+}
+
+/* Explore */
+#explore {  
+    margin-top: 46.4vh;
+}
+
+#explore a {
+    padding: 0 2vw;
+}
+
+#explore, #explore * {
+    flex-direction: column;
+    flex-grow: 0;
+    font-size: 10vw;
+}
 
 }
 
