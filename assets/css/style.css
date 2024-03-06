@@ -1062,7 +1062,19 @@ video {
     }
 
     #menu-2 {
-        flex-direction: column;
+        flex-direction: row;
+    }
+    
+    #first {
+        order: 1;
+    }
+    
+    #second {
+        order: 2;
+    }
+    
+    #third {
+        order: 3;
     }
 
     /* Icons */
