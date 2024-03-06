@@ -639,26 +639,28 @@ video {
 
 /* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
 /* Opening Logo */
-#logo {
-    width: 90vw;
+#startLogo {
     padding: 0 2vh;
     margin-top: 42.4vh;
 }
 
-#logo, #logo * {
+#startLogo, #startLogo * {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-size: 8vh;
+    justify-content: space-evenly;
+    font-size: 6vh;
     color: #ffffff00;
+}
+
+#startLogo * {
+    padding: 1vh;
 }
 
 /* Explore */
 #explore {
     position: fixed;
-    flex-direction: column;
-    width: 90vw;   
+    flex-direction: column; 
     margin-top: 42.4vh;
     padding: 0 2vh;
 }
@@ -671,7 +673,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 8vh;
+    font-size: 6vh;
     color: #ffffff00;
     text-decoration: none;
 }
@@ -1008,13 +1010,13 @@ video {
 
 /* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
 /* Opening Logo */
-#logo, #logo * {
+#startLogo, #startLogo * {
     flex-direction: column;
     flex-grow: 0;
     font-size: 9vw;
 }
 
-#logo {
+#startLogo {
     margin-top: 18vh;
     width: 100vw;
 }
