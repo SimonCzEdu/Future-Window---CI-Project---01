@@ -267,10 +267,9 @@ Taking this opportunity I would like to thank Osin and Jason tutors for helping 
 
 Future Windows is a fictional company but it was an idea taking space in my mind and I finally took the first step in making it a reality. For that opportunity alone I will be forever grateful.
 
-I also would like to thank my wife Marta Furman for her help with the project and support. She tested the site, helped with writing alt="" descriptions, provided invaluable insight and inspired. In particular:
- * navBar for gallery with Cold and Light links under the Gallery link (it was a moment of pure epiphany)
+I also would like to thank my wife Marta Furman for her help with the project and support. She tested the site, helped with writing alt="" descriptions, provided invaluable insight and inspired. It was her idea to set navBar for the gallery with Cold and Light links under the Gallery link for vertical view (it was a moment of pure epiphany).
 
 
-Szymon (or simply Simon) Czapiewski 2021.
+Szymon (or simply Simon) Czapiewski 2023.
 
 [Back to top](<#contents>)
