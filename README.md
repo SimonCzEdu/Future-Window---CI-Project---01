@@ -25,9 +25,9 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
         * Light
         * Cold
     * [**Contact Us**](<#contact-us>)
-       * Contact form
-       * Contact details
-       * iframe map
+       * [Contact form](<#contact-form>) 
+       * [Contact details](<#contact-info-and-map>)
+       * [iframe map](<#contact-info-and-map>)
     * [**Form Confirmation**](<#form-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -163,11 +163,11 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The page features contact details for more traditional forms (email, phone, address)
     * At the bottom of the page, Google Maps is featured through iframe (except Galaxy Fold on portrait view - more info in bug fixing section). It is not linked to any address as Future Windows is a fictional company. However, that can be easily remedied as needed with the Google Maps 'embed' feature. 
 
-* Contact Form
+* ### Contact Form
 
 ![Contact Us image](assets/image/Readme-images/contactForm.jpg)
 
-* Contact Info and map
+* ### Contact Info and map
 
 ![Contact Us image](assets/image/Readme-images/contactInfo+map.jpg)
 
