@@ -637,8 +637,41 @@ video {
     color: #ffffff;
 }
 
-/* Media queries */
+/* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
+/* Opening Logo */
+#fadeInOut, #fadeInOut * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vh;
+    margin-top: 0;
+    flex-grow: 1;   
+    /* color: #ffffff00; */
+}
 
+/* Explore */
+#explore {
+    position: fixed;
+}
+
+#explore a {
+    padding: 0 2vw;
+}
+
+#explore, #explore * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;    
+    margin-top: 0;
+    flex-grow: 1;
+    /* color: #ffffff00; */
+    text-decoration: none;
+}
+
+/* Media queries */
 /* Media query: Portrait orientation general */
 @media (orientation: portrait) {
 
