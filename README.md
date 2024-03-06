@@ -63,9 +63,11 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
 The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.com). There are frames for a full-width display and a small mobile device. The final site varies from the wireframes due to developments that occurred during the development process. 
 
 * Desktop WireFrame
+
 ![Desktop wireframe image](assets/
 
 * Mobile WireFrame
+
 ![Mobile wireframe image](assets/ 
 
 [Back to top](<#contents>)
@@ -115,10 +117,13 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * The logo is clickable with a link back to the home page for enhanced UX.
 
 * Nav bar on
+
 ![Nav Bar On image](assets/image/Readme-images/navBar.jpg)
 
 * Nav bar off on the Gallery page
+
 ![Nav Bar Off The Gallery example image](assets/image/Readme-images/galleryPhotos-hidden-nav.jpg)
+
 [Back to top](<#contents>)
 
 * ### Footer
@@ -128,9 +133,11 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * Just like the navBar footer is in a fixed position and can be hidden with a press of a button.
 
 * Footer ON
+
 ![Footer On image](assets/image/Readme-images/footerOn.jpg)
 
-*Footer OFF
+* Footer OFF
+
 ![Footer Off image](assets/image/Readme-images/footerOff.jpg)
 [Back to top](<#contents>)
 
@@ -142,7 +149,9 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
       * A responsively styled grid of images of products gives the user a view of what Future Windows can achieve. It is intended more of an appetizer before the customer dives into technologies [Future Features](<#future-features>). 
 
 * Gallery
+
 ![Gallery image](assets/image/Readme-images/galleryLight.jpg)
+
 [Back to top](<#contents>)
 
   * ### Contact Us
@@ -152,9 +161,11 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * At the bottom of the page, Google Maps is featured through iframe (except Galaxy Fold on portrait view - more info in bug fixing section). It is not linked to any address as Future Windows is a fictional company. However, that can be easily remedied as needed with the Google Maps 'embed' feature. 
 
 * Contact Form
+
 ![Contact Us image](assets/image/Readme-images/contactForm.jpg)
 
 * Contact Info and map
+
 ![Contact Us image](assets/image/Readme-images/contactInfo+map.jpg)
 
 [Back to top](<#contents>)
@@ -165,7 +176,9 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
     * This page is a copy of the contacts page with the hero image and the contact details. It does not need form anymore (it could confuse the customer), nor the map. The page has [Contact Us](form.html) active, but that is only for appearances. 
 
 * Submission confirmation
+
 ![Form confirmation image](assets/image/Readme-images/thankYouNote.jpg)
+
 [Back to top](<#contents>)
 
 ## Future Features 
@@ -180,6 +193,7 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
 [Back to top](<#contents>)
 
 # Technologies Used
+
 * [HTML5](https://html.spec.whatwg.org/) - basic content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - styling.
 * [Balsamiq](https://balsamiq.com/wireframes/) - concept wireframes.
@@ -197,6 +211,7 @@ Detailed [testing (opens in a new window)](TESTING.md) of Future Windows.
 # Deployment
 
 ### **To deploy the project**
+
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **Pages** tab on the left-hand side.
@@ -208,12 +223,14 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   The live link to the Github repository can be found here - https://github.com/SimonCzEdu/Future-Window---CI-Project---01
 
 ### **To fork the repository on GitHub**
+
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 1. Log in to **GitHub** and locate the [repository](https://github.com/SimonCzEdu/Future-Window---CI-Project---01).
 2. On the right-hand side of the page in line with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 ![GitHub forking process image](assets/image/Readme-images/fork.jpg)
 
 ### **To create a local clone of this project**
+
 Below is the method for cloning a project from GitHub:
 
 1. Under the repository’s name, click on the **code** tab.
@@ -238,7 +255,8 @@ Below is the method for cloning a project from GitHub:
 * Hero image and filler photos for the gallery by AI art generator - at [Copilot](https://www.bing.com/images/create?FORM=GDPCLS)
 * The photos were compressed using - at [Compressor](https://imagecompressor.com/).
 * Yum Cheol-Ho- at [unsplash](https://unsplash.com/photos/white-wooden-framed-glass-window-LumHIwjuQeA)
-* Bernard Hermant - at [unsplash 1](https://unsplash.com/photos/clear-glass-door-in-white-frame-uQNmPscyWg0); [unsplash 2](https://unsplash.com/photos/closed-clear-glass-windows-of-white-building-u8OMbY5D0aI)
+* Bernard Hermant - at [unsplash 1](https://unsplash.com/photos/clear-glass-door-in-white-frame-uQNmPscyWg0); 
+                       [unsplash 2](https://unsplash.com/photos/closed-clear-glass-windows-of-white-building-u8OMbY5D0aI)
 * Klara Kulikova - at [unsplash](https://unsplash.com/photos/a-kitchen-counter-with-a-bowl-of-fruit-on-it-igqC8KKZU5w)
 * Lasse Møller - at [unsplash](https://unsplash.com/photos/glass-window-facing-sea-0TLId2pjnKk)
 * Andrea Davis - at [unsplash](https://unsplash.com/photos/white-and-brown-concrete-building-during-daytime-aY-85GW-oJ4)
