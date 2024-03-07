@@ -62,9 +62,9 @@
         </section>
 
         <!-- Form -->
-        <form action="submission.html" method="get" id="request">
+        <form id="contactForm"action="submission.html" method="get" id="request">
 
-            <div class="formRight">
+            <div class="formDiv formLeft">
                 <label for="firstName">First name:</label>
                 <br>
                 <input type="text" id="firstName" name="firstName" placeholder="Name" value="" required>
@@ -83,12 +83,12 @@
                 <input type="email" id="email" name="email" placeholder="example: email@domain.com" value="" required>
             </div>
 
-            <div class="formLeft">
-                <label for="files">Submit windows schedule or architect drawings:</label>
-                <br>
+            <div class="formDiv formRight">
+                <label for="files">You can submit drawings:</label>
                 <input type="file" name="files" id="files"
                     accept="image/*,.doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf"
                     multiple>
+                <br>
                 <br>
                 <label for="note">What can we do for you today?</label>
                 <textarea name="note" id="note"
@@ -125,6 +125,7 @@
                         Cork <br>
                         Co. Cork</p>
                 </div>
+                
         </section>
 
         <!-- Map -->

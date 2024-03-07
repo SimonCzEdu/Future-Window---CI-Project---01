@@ -416,28 +416,30 @@ main {
 
 /* Form styling */
 /* Main form styling */
-form {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2vw;
-    gap: 4vh;
-    font-family: 'Roboto', sans-serif;
-}
-
-.formDiv {
-    padding: 2vh;
+#contactForm {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 0.5vh;
-    font-size: 2vh;
+    margin: 3vh 0;
+    gap: 4vh;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
+.formLeft, .formRight {
+    padding: 0 3vh ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5vh;
+    font-size: 5vh;
+    flex-grow: 1;
+}
+
+
 .formDiv label,
-.formDiv input,
-.formDiv textarea {
-    width: 90%;
-    font-size: 5.5vw;
+.formDiv input {
+    font-size: 5vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
 }
@@ -445,13 +447,15 @@ form {
 .formDiv label {
     border-bottom-style: solid;
     border-bottom-color: #ffffff;
-    margin-top: 6vw;
+    width: 90%;
 }
 
 .formDiv textarea {
     width: 100%;
-    height: 27vw;
+    height:     20vh;
     border-radius: 5px;
+    font-size: 5vh;
+    flex-grow: 1;
 }
 
 
@@ -486,6 +490,9 @@ form {
 #emailPhoneAddress {
     display: flex;
     flex-wrap: wrap;
+    gap: 3vh;
+    
+    margin: 0vh 0 0 3vh;
 }
 
 #emailPhoneAddress div {
@@ -494,6 +501,11 @@ form {
 
 #contactInfo h2 {
     align-self: center;
+    font-size: 5.5vh;
+}
+
+#contactInfo label {  
+    font-size: 5.5vh;
 }
 
 #contactInfo h2,
@@ -501,7 +513,6 @@ form {
     font-size: 5.5vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
-    margin: 3vh;
 }
 
 #contactInfo p {
@@ -509,7 +520,6 @@ form {
     font-size: 4vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
-    margin: 0vh 0 1vh 5vh;
 }
 
 /* Map iframe styling */
@@ -967,42 +977,78 @@ video {
         column-count: 1;
     }
 
-    /* Form  */
+    /* From */
+    /* Main form styling */
+    #emailPhoneAddress {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7vw;
+        flex-direction: column;
+        margin: 0vh 0 0 3vw;
+    }
+
+    #contactForm {
+        flex-direction: row;
+        margin: 5vw 0;
+        gap: 4vh;
+        width: 100%;
+    }
+    
+    .formLeft, .formRight {
+        padding: 0 3vw ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .formLeft {
+        flex-grow: 1;
+    }
+
+    .formRight   {
+        flex-direction: row;
+    }    
+    
+    .formDiv label {
+        font-size: 6vw;
+    }
+
+    .formDiv input {
+        font-size: 5.5vw;
+    }
+    
+    .formDiv label, .formDiv input, .formDiv textarea {
+        width: 90%;
+    }
+    
+    .formDiv textarea {
+        height: 20vh;
+        font-size: 2.5vh;
+    }
+
     /* Contact info Styling */
-    #contactInfo h2,
+    /* Contact info Styling */
+
+    #contactInfo {
+        width: 100vw;
+    }
+
     #contactInfo label {
-        font-size: 7vw;
-        margin: 3vw;
+        font-size: 5vw;
+    }
+
+    #contactInfo h2 {
+        font-size: 5.5vw;
+        padding: 3vw;
     }
 
     #contactInfo p {
-        font-size: 4vw;
-        margin: 6vw 4vw;
+        font-size: 3vw;
     }
 
-    /* Map iFrame */
-    #gMap {
-        width: 100vw;
-        height: 30vh;
-        margin-bottom: 5vw;
-    }
-
-    #burryGMap {
-        width: 100vw;
-        height: 30vh;
-    }
-
-    #burryGMap iframe {
-        width: 100%;
-        height: 100%;
-    }
-    /* Submission-note */
-    #thankYou {
-        margin: 40vw 0 0 0;
-        font-size: 5vw;
-        padding: 2vw;
-        border-radius: 5px;
-        width: 95%;
+    /* Gallery */
+    .photos {   
+        column-count: 3;
     }
 
 
@@ -1098,28 +1144,6 @@ video {
     }
 
     /* From */
-    /* Contact info Styling */
-
-    #contactInfo {
-        width: 100vw;
-    }
-
-    #contactInfo h2,
-    #contactInfo label {
-        font-size: 5vw;
-        margin: 3vw;
-    }
-
-    #contactInfo p {
-        font-size: 3vw;
-        margin: 6vw 4vw;
-    }
-
-    /* Gallery */
-    .photos {
-        column-count: 3;
-
-    }
 }
 
 /* Media query: for landscape view on phones */
@@ -1207,8 +1231,41 @@ video {
     }
 
     /* From */
+    /* Main form stylin */
+    #contactForm {
+        flex-direction: row;
+        margin: 3vh 0;
+        gap: 4vh;
+        width: 100%;
+    }
+    
+    .formLeft, .formRight {
+        padding: 0 3vh ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .formLeft {
+        flex-grow: 1;
+    }
+    .formRight   {
+        flex-direction: row;
+    }    
+    
+    .formDiv label,
+    .formDiv input {
+        font-size: 3vh;
+    }
+    
+    .formDiv label, .formDiv input, .formDiv textarea {
+        width: 90%;
+    }
+    
+    .formDiv textarea {
+        height: 20vh;
+        font-size: 2.5vh;
+    }
     /* Contact info Styling */
-
     #contactInfo {
         width: 100vw;
     }
@@ -1223,6 +1280,8 @@ video {
         font-size: 1.7vh;
         margin: 0px 0 0 2vw;
     }
+
+    
 
     /* Gallery */
     #lightAnchor,
