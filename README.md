@@ -46,12 +46,12 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
 
 ## User Stories
 
-* As a user I want to be able to navigate through the whole site smoothly.
-* As a user I want to understand the purpose of the site upon loading it.
-* As a user I want to easily be able to contact Future Windows for more information.
-* As a user I want to see product samples.
-* As a user I want to be able to provide a feedback/ask questions directly to the company.
-* As a user I want to connect with Future Windows on social media.
+* As a user, I want to be able to navigate through the whole site smoothly.
+* As a user, I want to understand the purpose of the site upon loading it.
+* As a user, I want to easily be able to contact Future Windows for more information.
+* As a user, I want to see product samples.
+* As a user, I want to be able to provide a feedback/ask questions directly to the company.
+* As a user, I want to connect with Future Windows on social media.
 
 [Back to top](<#contents>)
 
