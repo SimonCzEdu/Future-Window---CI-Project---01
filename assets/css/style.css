@@ -633,8 +633,15 @@ footer {
 }
 
 .menuIcon {
+    display: flex;
+    color: rgb(5, 251, 218);
     font-size: 4.5vh;
     margin-right: 0.5vh;
+}
+
+/* i-chevron rotation */
+#social-toggle:checked~label .i-chevron {
+    rotate: 180deg;
 }
 
 /* Background video styling */
@@ -672,6 +679,12 @@ video {
 .i-socials:hover {
     color: #ffffff;
 }
+
+.menuIcon:hover {
+    color: #ffffff;
+}
+
+.
 
 /* Animations Setup - disabling first items that will be animated in later and initial positioning. Vertical view first */
 /* Opening Logo */
