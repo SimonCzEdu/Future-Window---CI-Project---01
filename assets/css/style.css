@@ -403,7 +403,7 @@ main {
 .photos {
     line-height: 20px;
     border-radius: 5px;
-    column-count: 3;
+    column-count: 2;
     column-gap: 5px;
     margin: 8vh 0 0 0;
 
@@ -1078,7 +1078,7 @@ video {
 
     /* Gallery */
     .photos {   
-        column-count: 3;
+        column-count: 2;
     }
 
 
@@ -1326,7 +1326,7 @@ video {
     }
 
     .photos {
-        column-count: 5;
+        column-count: 3;
 
     }
 }
