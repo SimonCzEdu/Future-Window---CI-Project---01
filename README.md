@@ -59,7 +59,7 @@ The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.c
 
 * Desktop WireFrame
 
-![Desktop wireframe image](assets/
+![Desktop wireframe image](assets/image/Readme-images/FW%20-%20wireframe.pdf)
 
 * Mobile WireFrame
 
