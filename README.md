@@ -16,20 +16,22 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
     *  [Typography](<#typography>)
     *  [Color Scheme](<#color-scheme>)
 * [**Features**](<#features>)
+    * [**Home**](<#logo-page>)
+        * Wow factor
     * [**Home**](<#Home>)
-         * Who, What, How sections
-         * [Nav bar](<#navBar>)
-         * [Footer](<#footer>)
-         * Background explosion video
+        * Who, What, How sections
+        * [Nav bar](<#navBar>)
+        * [Footer](<#footer>)
+        * Background explosion video
     * [**Gallery**](<#gallery>)
         * Light
         * Cold
     * [**Contact Us**](<#contact-us>)
-       * [Contact form](<#contact-form>) 
-       * [Contact details](<#contact-info-and-map>)
-       * [iframe map](<#contact-info-and-map>)
+        * [Contact form](<#contact-form>) 
+        * [Contact details](<#contact-info-and-map>)
+        * [iframe map](<#contact-info-and-map>)
     * [**Form Confirmation**](<#form-confirmation>)
-       * [Thank you note](<#submission-confirmation>)
+        * [Thank you note](<#submission-confirmation>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -57,19 +59,13 @@ You can find the deployed site at <a href="https://simonczedu.github.io/Future-W
 
 The wireframes for Future Windows were produced in [Balsamiq](https://balsamiq.com). There are frames for a full-width display and a small mobile device. The final site varies from the wireframes due to developments that occurred during the development process. 
 
-* Desktop WireFrame
-
-[WireFrames in PDF (will open in new tab)](assets/image/Readme-images/FW%20-%20wireframe.pdf)
-
-* Mobile WireFrame
-
-![Mobile wireframe image](assets/ 
+[Wireframes in PDF (will open in new tab)](assets/image/Readme-images/FW%20-%20wireframe.pdf)
 
 [Back to top](<#contents>)
 
 ## Site Structure
 
-Future Windows website has 3 main pages plus a "Thank you" page for form submission. The [Home](index.html) is the default loading page, the [Gallery](gallery.html), and [Contact Us](form.html) pages are all accessible primarily from the navigation menu. The [Submission note](submission.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible (position:fixed).
+Future Windows website has 3 main pages plus a "Logo" page and for 'wow' factor and a "Thank you" page for form submission. The [Logo page](index.html) is the default loading page. It features a simple message and a strong call to action that takes users to [Home](home.html). From there users can navigate to the [Gallery](gallery.html), and [Contact Us](form.html). The navigation bar at the top is there for them at all times. It can be hidden for a better viewing experience. The [Submission note](submission.html) is displayed upon submitting the form. [Gallery](gallery.html) also has internal navigation to quickly and easily 'jump' to Light and Cold sections of photographs. All navigation can be hidden with checkboxes at any time and is by design always visible (position:fixed).
  
 [Back to top](<#contents>)
 
@@ -84,7 +80,7 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
     * Design started from an idea of a background video providing that 'wow' factor with a 'bang'.
 
  * ### Typography
-      Font family 'Anta' is set for the body, so it will always be the default font in the absence of any other style. For the main elements of the [Home](index.html) and [Contact Us](form.html) 'Roboto' was chosen instead. 'Roboto' is featured in  the 'Who, What, How' sections of the [Home](index.html) and in the entirety of the form in [Contact Us](form.html)
+      Font family 'Anta' is set for the body, so it will always be the default font in the absence of any other style. For the main elements of the [Home](home.html) and [Contact Us](form.html) 'Roboto' was chosen instead. 'Roboto' is featured in  the 'Who, What, How' sections of the [Home](home.html) and in the entirety of the form in [Contact Us](form.html)
     
     *  'Anta' was chosen for the header (title and nav elements) to give the user an initial futuristic feel. The aim is to invoke the feeling that Future Windows is from the future and can take users there. It fits more general design philosophy mentioned above.
     * 'Roboto' is used for pretty much the same reason, but it feels more readable, especially when there is more text, or when a font is smaller.
@@ -107,10 +103,15 @@ Future Windows website has 3 main pages plus a "Thank you" page for form submiss
 The Future Windows site is set up to be a bit provocative but easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and thought-provoking. Usage should be intuitive but also feel modern. For that purpose philosophy of "navigation bar is there when you need it and you can hide it when you don't" was applied.  
 
 ## Existing Features 
+  * ### Logo page
+    * [Logo page] Is the first thing users see.
+    * It is a simple message and a strong call to action.
+    * The whole reason is to create 'WoW' factor.
+    * This is not a background video. It is animated using .css @keyframes and opacity.
 
   * ### Home
     
-    * [Home page](index.html) is the first page to load
+    * [Home page](home.html) is the second page to load (after a user clicks on 'Explore')
     * It features 3 sections that answer questions: Who the Future Windows are What they do and How they do it.
     * It features semi-transparent images, text and background to showcase background animation. A spark that illuminates the darkness in the explosion.
 
@@ -188,10 +189,10 @@ The Future Windows site is set up to be a bit provocative but easy to use. It co
 ## Future Features 
 
 * A new section "Products":
-    * This would include product descriptions alongside the photos. Windows are not sold by model, so this would have to feature a description of a 'system' (i.e triple glazing) and an example of an installed window as well as a horizontal slice of a window frame. This would make it distinct from the gallery that is purely for visual impact. The gallery can feature fully installed windows rather than a technical representation of how it works.
+    * This would include product descriptions alongside the photos. Windows are not sold by model, so this would have to feature a description of a 'system' (i.e. triple glazing) and an example of an installed window as well as a horizontal slice of a window frame. This would make it distinct from the gallery that is purely for visual impact. The gallery can feature fully installed windows rather than a technical representation of how it works.
 * Animations for the front page elements. 
     * Purely for a more 'wow' effect and to make it look more dynamic.
-    * The idea is that after 'the explosion' plays out, sections slide in to take center stage on the [Home](index.html) page. On the vertical view side sections slide in from left and right, and the middle one from the top. On horizontal it would be either lef>right; right>left; left>right or all in the same direction, but with different delays.
+    * The idea is that after 'the explosion' plays out, sections slide in to take center stage on the [Home](home.html) page. On the vertical view side sections slide in from left and right, and the middle one from the top. On horizontal it would be either lef>right; right>left; left>right or all in the same direction, but with different delays.
 * Actual file dump for the form linked up with a spreadsheet to sort potential customers and contact base.
 
 [Back to top](<#contents>)
