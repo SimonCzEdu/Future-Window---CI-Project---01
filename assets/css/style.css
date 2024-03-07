@@ -632,6 +632,11 @@ footer {
     font-size: 5.5vh;
 }
 
+.menuIcon {
+    font-size: 4.5vh;
+    margin-right: 0.5vh;
+}
+
 /* Background video styling */
 #bgVid {
     display: flex;
@@ -905,6 +910,11 @@ video {
         font-size: 9vw;
     }
 
+    .menuIcon {
+        font-size: 8vw;
+        margin-right: 0.5vw;
+    }
+
     /* Hero Image */
     #heroImgSection {
         height: 99.5vw;
@@ -1157,6 +1167,11 @@ video {
         font-size: 7vw;
     }
 
+    .menuIcon {
+        font-size: 6vw;
+        margin-right: 0.5vw;
+    }
+
     /* Main */
     #mainContainer {
         margin: 12vh 0 4vh 0;
@@ -1200,6 +1215,11 @@ video {
     .i-chevron,
     .i-socials {
         font-size: 5vw;
+    }
+
+    .menuIcon {
+        font-size: 4vw;
+        margin-right: 0.5vw;
     }
 
     /* Hero Image */

@@ -105,7 +105,7 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 * SEO - Search engine optimization. Is the site optimized for search engine result rankings.
 
 As an example the results for Future Windows home page are below:
-![Lighthouse test results](assets/readme-images/testing.png)
+![Lighthouse test results](assets/)
 
 ### Peer review
 In addition to the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been addressed.
