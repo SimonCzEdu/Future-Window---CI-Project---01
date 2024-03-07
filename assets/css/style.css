@@ -31,6 +31,7 @@ body {
     color: #ffffff;
     font-family: 'Anta', sans-serif;
     align-items: center;
+    
 }
 
 /* Header styling */
@@ -436,18 +437,14 @@ main {
     flex-grow: 1;
 }
 
-
-.formDiv label,
-.formDiv input {
-    font-size: 5vh;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 3px;
-}
-
 .formDiv label {
     border-bottom-style: solid;
     border-bottom-color: #ffffff;
     width: 90%;
+}
+
+.formDiv input{
+    padding: 0 0.5vh;    
 }
 
 .formDiv textarea {
@@ -456,8 +453,29 @@ main {
     border-radius: 5px;
     font-size: 5vh;
     flex-grow: 1;
+    padding: 2vh;
 }
 
+.formDiv label,
+.formDiv input {
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+}
+
+/* Form input field in/active states */
+.formDiv input:hover:focus, .formDiv textarea:hover:focus {
+    background-color: #ffffff;
+    outline: none;
+    border-style: solid;
+    border-color: rgba(5, 174, 186, 0.651);
+    border-width: 2px;
+}
+
+::placeholder {
+    color: #00000082;
+    opacity: 0.5;
+  }
 
 /* Submit styling */
 #apply {
@@ -466,6 +484,13 @@ main {
 
 #subButton {
     margin-bottom: 10vw;
+}
+
+#subButton input {
+    font-size: 5vh;
+    padding: 1vh;
+    text-align: center;    
+    border-radius: 10px;
 }
 
 #thankYou {
@@ -485,6 +510,7 @@ main {
     flex-direction: column;
     background-color: #24272f;
     border-radius: 5px;
+    padding-bottom: 4vh;
 }
 
 #emailPhoneAddress {
@@ -502,18 +528,15 @@ main {
 #contactInfo h2 {
     align-self: center;
     font-size: 5.5vh;
+    padding-top: 4vh;
 }
 
-#contactInfo label {  
-    font-size: 5.5vh;
-}
-
-#contactInfo h2,
-#contactInfo label {
+#contactInfo h3 {
     font-size: 5.5vh;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;
 }
+
 
 #contactInfo p {
     width: 80%;
@@ -993,6 +1016,11 @@ video {
         gap: 4vh;
         width: 100%;
     }
+
+    #subButton input {
+        font-size: 6vw;
+        padding: 1vw;
+    }
     
     .formLeft, .formRight {
         padding: 0 3vw ;
@@ -1015,6 +1043,7 @@ video {
 
     .formDiv input {
         font-size: 5.5vw;
+        padding: 0.5vh;
     }
     
     .formDiv label, .formDiv input, .formDiv textarea {
@@ -1024,6 +1053,7 @@ video {
     .formDiv textarea {
         height: 20vh;
         font-size: 2.5vh;
+        padding: 0.5vh;
     }
 
     /* Contact info Styling */
@@ -1033,7 +1063,7 @@ video {
         width: 100vw;
     }
 
-    #contactInfo label {
+    #contactInfo h3 {
         font-size: 5vw;
     }
 
@@ -1142,8 +1172,6 @@ video {
         height: 27vh;
         margin: 0;
     }
-
-    /* From */
 }
 
 /* Media query: for landscape view on phones */
@@ -1260,7 +1288,10 @@ video {
     .formDiv label, .formDiv input, .formDiv textarea {
         width: 90%;
     }
-    
+    .formDiv input{
+        padding: 0 0.5vw;    
+    }
+
     .formDiv textarea {
         height: 20vh;
         font-size: 2.5vh;
@@ -1270,11 +1301,16 @@ video {
         width: 100vw;
     }
 
-    #contactInfo h2,
-    #contactInfo label {
-        font-size: 3vh;
+    #contactInfo h2 {
+        font-size: 4vw;
+        margin: 2vw 0 0 2vw;
+    }
+
+    #contactInfo h3 {
+        font-size: 2.5vh;
         margin: 0 0 0 2vw;
     }
+    
 
     #contactInfo p {
         font-size: 1.7vh;
