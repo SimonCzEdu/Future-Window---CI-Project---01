@@ -100,8 +100,6 @@ li a {
     right: 0;
 }
 
-.nav-toggle-label-on {}
-
 #menu-1 {
     display: flex;
     list-style-type: none;
@@ -1064,7 +1062,7 @@ video {
     #menu-2 {
         flex-direction: row;
     }
-    
+
     #first {
         order: 1;
     }
