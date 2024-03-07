@@ -298,9 +298,12 @@ Below is the method for cloning a project from GitHub:
 
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. 
 
+
+
 Taking this opportunity I would like to thank Osin and Jason tutors for helping with getting me through some difficult subjects.
  * Jason helped me understand and apply flexbox properly to the background video
  * Osin helped me figure out the positioning of images and background images.
+Some inspiration for code was also drawn from the "Love Running" project completed on CodeInstitute.
 
 Future Windows is a fictional company but it was an idea taking space in my mind and I finally took the first step in making it a reality. For that opportunity alone I will be forever grateful.
 
