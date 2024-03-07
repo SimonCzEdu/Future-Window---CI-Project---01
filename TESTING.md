@@ -104,8 +104,10 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 * Best Practices - Site conforms to industry best practices.
 * SEO - Search engine optimization. Is the site optimized for search engine result rankings.
 
-As an example the results for Future Windows home page are below:
-![Lighthouse test results](assets/)
+As an example the results for Future Windows gallery page (featuring most photos and thus using most resources) are below:
+![Lighthouse test results](assets/image/Readme-images/08_speed-test.jpg)
+
+* Conclusion: performance could be further improved by reducing sizing of images, however it is acceptable and it would affect visual impact of the site.
 
 ### Peer review
 In addition to the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been addressed.
