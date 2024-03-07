@@ -56,13 +56,13 @@
     <main>
 
         <!-- Hero Image -->
-        <section id="heroImgSection">
+        <div id="heroImgSection">
             <div id="heroImgContainer">
             </div>
-        </section>
+        </div>
 
         <!-- Form -->
-        <form id="contactForm"action="submission.html" method="get" id="request">
+        <form id="contactForm" action="submission.html" method="get">
 
             <div class="formDiv formLeft">
                 <label for="firstName">First name:</label>
@@ -98,7 +98,7 @@
         </form>
 
         <div id="subButton">
-            <input for="contactForm" type="submit" name="apply" id="apply" form="request">
+            <input type="submit" name="apply" id="apply" form="contactForm">
         </div>
 
         <!-- Contact info -->
@@ -125,10 +125,10 @@
                         Cork <br>
                         Co. Cork</p>
                 </div>
-
+            </div>
         </section>
 
-        <!-- Map -->
+        <!-- Map -->        
         <div id="gMap">
             <div id="burryGMap">
                 <iframe
